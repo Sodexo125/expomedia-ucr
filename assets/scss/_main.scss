@@ -21,8 +21,8 @@ body {
         font-size: 4rem;
 
         @include respond-to($phone){
-            font-size: 2.5rem;
-            margin-top: 50px;
+            font-size: 2rem;
+            margin-top: 30px;
         }
     }
 
@@ -102,3 +102,13 @@ body {
     }
 }
 
+.nav-rock{
+    
+    @include respond-to($phone){
+        padding-left: 10px;
+        opacity: 0.5;
+        background: #333;
+        margin-bottom: 20px;
+    }
+
+}
