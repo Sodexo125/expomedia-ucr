@@ -10,6 +10,7 @@ License: GNU General Public License V2
 
 @import 'fonts'; 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @import 'variables';
 @import 'main';
 @import'media-queries'; 
@@ -18,15 +19,23 @@ License: GNU General Public License V2
 @import 'main';
 >>>>>>> parent of b344d95... avance de pagina de torneos 2:27 am
 
+=======
+@import 'main';
+@import'media-queries'; 
+@import 'torneos';
+>>>>>>> parent of 6ada80a... Merge branch 'master' of https://github.com/Sodexo125/expomedia-ucr
 
 //@include font-face('nombreAsignado', 'Nombre del archivo', 'nombre de la carpeta', 'si no encuentra, por defecto serif' );
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
 @include font-face('MontserratRegular', 'montserrat-regular-webfont', 'Montserrat', 'serif' );
 
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
 
+=======
+>>>>>>> parent of 6ada80a... Merge branch 'master' of https://github.com/Sodexo125/expomedia-ucr
 .bg-green{
     background: green;
 }
@@ -54,6 +63,11 @@ License: GNU General Public License V2
     background: blue;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> parent of 6ada80a... Merge branch 'master' of https://github.com/Sodexo125/expomedia-ucr
 body{
     // width: 100%;
     // height: 100%;
@@ -66,8 +80,11 @@ h1{
 	font-family:"BitsumisRegular";
 }
 
+<<<<<<< HEAD
 =======
 h1{
 	font-family:"MontserratRegular";
 }
 >>>>>>> parent of b344d95... avance de pagina de torneos 2:27 am
+=======
+>>>>>>> parent of 6ada80a... Merge branch 'master' of https://github.com/Sodexo125/expomedia-ucr
