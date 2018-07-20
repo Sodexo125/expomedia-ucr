@@ -1,6 +1,5 @@
 <nav class="navscroll navbar navbar-expand-lg navbar-dark fixed-top align-middle">
 	<div class="favIcon"><a href="#"><img src="./assets/images/logo-itm.png" alt="Logo de Informática y Tecologia Multimedia" ></a></div>
-    <!-- <img src=“image.jpg” alt=“image description” title=“image tooltip”> -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
