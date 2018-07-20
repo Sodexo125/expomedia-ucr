@@ -8,9 +8,16 @@ Version: 1.0
 License: GNU General Public License V2
 */
 
+
 @import 'fonts'; 
+<<<<<<< HEAD
 @import 'variables';
 @import 'main';
+=======
+// @import 'main';
+@import'media-queries'; 
+@import 'torneos';
+>>>>>>> 71ef2a4d5fddaaecbe3404901832ed784e0fcd22
 
 //@include font-face('nombreAsignado', 'Nombre del archivo', 'nombre de la carpeta', 'si no encuentra, por defecto serif' );
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
@@ -23,6 +30,18 @@ License: GNU General Public License V2
     background: green;
 }
 
+<<<<<<< HEAD
+// clase o id contenedor
+.clase/id{
+// nombre del metodo y parametro correspondiente a los parametros del _media-queries
+	@include respond-to($phone){
+		// lo que quiere que haga el media
+		margin-top:35px;
+	}
+	
+// h1,h2,h3,h4,h5,a,p{font-family: "barlowRg"; }
+
+=======
 .bg-red{
     background: red;
 }
@@ -30,7 +49,26 @@ License: GNU General Public License V2
 .bg-blue{
     background: blue;
 }
+>>>>>>> be06234fa9fc93681f42d71ec2bb917b09daf8b9
 
 
+<<<<<<< HEAD
 
 
+=======
+body{
+    // width: 100%;
+    // height: 100%;
+    background: #777;   
+}
+<<<<<<< HEAD
+// h1{
+// 	font-family:"MontserratRegular";
+// }
+=======
+
+h1{
+	font-family:"BitsumisRegular";
+}
+>>>>>>> be06234fa9fc93681f42d71ec2bb917b09daf8b9
+>>>>>>> 71ef2a4d5fddaaecbe3404901832ed784e0fcd22
