@@ -32,7 +32,7 @@
     </div>
     <div class="textHeader">
       <h1>EXPOMEDIA</h1>
-      <button type="button" class="btn btn-header">INSCRIBETE</button>
+      <!-- <button type="button" class="btn btn-header">INSCRIBETE</button> -->
     </div>
   </header>
 
