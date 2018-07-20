@@ -9,6 +9,7 @@ License: GNU General Public License V2
 */
 
 @import 'fonts'; 
+@import'media-queries'; 
 @import 'variables';
 @import 'main';
 @import 'torneos';
@@ -17,8 +18,17 @@ License: GNU General Public License V2
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
 @include font-face('MontserratRegular', 'montserrat-regular-webfont', 'Montserrat', 'serif' );
 
+////////////////////////////// Responsive //////////////////////////////////////////////////////////////////
+// nombre de la clase o id contenedor
+.webCard{
+// forma de incluir el media, el parametro se coloca en relacion a las variables existentes en el _media-queries.scss
+	@include respond-to($phone){
+		margin-top:35px;
+	}
 
 
+}
+////////////////////////////////////////////////////////////////////////////////////////////////
 
 .bg-green{
     background: green;
