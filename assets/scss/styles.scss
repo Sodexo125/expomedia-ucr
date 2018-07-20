@@ -10,7 +10,7 @@ License: GNU General Public License V2
 
 
 @import 'fonts'; 
-// @import 'main';
+@import 'main';
 @import'media-queries'; 
 @import 'torneos';
 
@@ -22,7 +22,7 @@ License: GNU General Public License V2
     background: green;
 }
 
-<<<<<<< HEAD
+
 // clase o id contenedor
 .clase/id{
 // nombre del metodo y parametro correspondiente a los parametros del _media-queries
@@ -31,9 +31,9 @@ License: GNU General Public License V2
 		margin-top:35px;
 	}
 	
-// h1,h2,h3,h4,h5,a,p{font-family: "barlowRg"; }
 
-=======
+
+
 .bg-red{
     background: red;
 }
@@ -41,7 +41,7 @@ License: GNU General Public License V2
 .bg-blue{
     background: blue;
 }
->>>>>>> be06234fa9fc93681f42d71ec2bb917b09daf8b9
+
 
 
 body{
@@ -49,13 +49,9 @@ body{
     // height: 100%;
     background: #777;   
 }
-<<<<<<< HEAD
-// h1{
-// 	font-family:"MontserratRegular";
-// }
-=======
+
 
 h1{
 	font-family:"BitsumisRegular";
 }
->>>>>>> be06234fa9fc93681f42d71ec2bb917b09daf8b9
+
