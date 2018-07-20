@@ -6,4 +6,4 @@ Author URI: hhttp://www.srp.ucr.ac.cr/
 Description: Tema del curso Desarrollo Rápido de Aplicaciones.
 Version: 1.0
 License: GNU General Public License V2
-*/@font-face{font-family:"barlowRg";src:url("./assets/fonts/barlow-condensed-v1-latin/barlow-condensed-v1-latin-regular.eot");src:url("./assets/fonts/barlow-condensed-v1-latin/barlow-condensed-v1-latin-regular.eot?#iefix") format("embedded-opentype"),url("./assets/fonts/barlow-condensed-v1-latin/barlow-condensed-v1-latin-regular.woff") format("woff")}h1,h2,h3,h4,h5,a,p{font-family:"barlowRg"}body{background:#777}
+*/@font-face{font-family:"BitsumisRegular";src:url("../fonts/Bitsumis/bitsumis-webfont.woff") format("woff")}@font-face{font-family:"MontserratRegular";src:url("../fonts/Montserrat/montserrat-regular-webfont.woff") format("woff")}body{background:#777}h1{font-family:"MontserratRegular"}
