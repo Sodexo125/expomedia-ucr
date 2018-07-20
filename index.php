@@ -11,19 +11,7 @@
     <title>Expomedia | UCR</title>
   </head>
   <body>
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-sm bg-green">
-          One of three columns
-        </div>
-        <div class="col-sm bg-red">
-          One of three columns
-        </div>
-        <div class="col-sm bg-blue">
-          One of three columns
-        </div>
-      </div>
-    </div> -->
+
 
   <header>
     <?php @include('./includes/menu.php'); ?>
@@ -32,7 +20,7 @@
     </div>
     <div class="textHeader">
       <h1>EXPOMEDIA</h1>
-      <button type="button" class="btn btn-header">INSCRIBETE</button>
+      <!-- <button type="button" class="btn btn-header">INSCRIBETE</button> -->
     </div>
   </header>
 
