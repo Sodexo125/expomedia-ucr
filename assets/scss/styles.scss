@@ -11,7 +11,10 @@ License: GNU General Public License V2
 @import 'fonts'; 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @import 'variables';
+=======
+>>>>>>> parent of 57c4ada... Commit navbar
 @import 'main';
 @import'media-queries'; 
 @import 'torneos';
@@ -30,12 +33,15 @@ License: GNU General Public License V2
 @include font-face('MontserratRegular', 'montserrat-regular-webfont', 'Montserrat', 'serif' );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
 
 =======
 >>>>>>> parent of 6ada80a... Merge branch 'master' of https://github.com/Sodexo125/expomedia-ucr
+=======
+>>>>>>> parent of 57c4ada... Commit navbar
 .bg-green{
     background: green;
 }
@@ -75,10 +81,16 @@ body{
 }
 <<<<<<< HEAD
 
+body{
+    // width: 100%;
+    // height: 100%;
+    background: #777;   
+}
 
 h1{
 	font-family:"BitsumisRegular";
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -88,3 +100,5 @@ h1{
 >>>>>>> parent of b344d95... avance de pagina de torneos 2:27 am
 =======
 >>>>>>> parent of 6ada80a... Merge branch 'master' of https://github.com/Sodexo125/expomedia-ucr
+=======
+>>>>>>> parent of 57c4ada... Commit navbar
