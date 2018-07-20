@@ -15,19 +15,25 @@ License: GNU General Public License V2
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
 @include font-face('MontserratRegular', 'montserrat-regular-webfont', 'Montserrat', 'serif' );
 
+.bg-green{
+    background: green;
+}
 
+.bg-red{
+    background: red;
+}
 
-// h1,h2,h3,h4,h5,a,p{font-family: "barlowRg"; }
-
+.bg-blue{
+    background: blue;
+}
 
 
 body{
-
-	
     // width: 100%;
     // height: 100%;
     background: #777;   
 }
+
 h1{
-	font-family:"MontserratRegular";
+	font-family:"BitsumisRegular";
 }
