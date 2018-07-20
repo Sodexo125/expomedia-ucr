@@ -8,12 +8,15 @@ Version: 1.0
 License: GNU General Public License V2
 */
 
-
 @import 'fonts'; 
+<<<<<<< HEAD
 @import 'variables';
 @import 'main';
 @import'media-queries'; 
 @import 'torneos';
+=======
+@import 'main';
+>>>>>>> parent of b344d95... avance de pagina de torneos 2:27 am
 
 
 //@include font-face('nombreAsignado', 'Nombre del archivo', 'nombre de la carpeta', 'si no encuentra, por defecto serif' );
@@ -22,6 +25,7 @@ License: GNU General Public License V2
 
 
 
+<<<<<<< HEAD
 
 .bg-green{
     background: green;
@@ -36,6 +40,9 @@ License: GNU General Public License V2
 		margin-top:35px;
 	}
 	
+=======
+// h1,h2,h3,h4,h5,a,p{font-family: "barlowRg"; }
+>>>>>>> parent of b344d95... avance de pagina de torneos 2:27 am
 
 
 
@@ -52,9 +59,15 @@ body{
     // height: 100%;
     background: #777;   
 }
+<<<<<<< HEAD
 
 
 h1{
 	font-family:"BitsumisRegular";
 }
 
+=======
+h1{
+	font-family:"MontserratRegular";
+}
+>>>>>>> parent of b344d95... avance de pagina de torneos 2:27 am
