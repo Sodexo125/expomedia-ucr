@@ -17,9 +17,9 @@
   </header>
   <br>
   <br>
-  <br> <br>
+  <br> 
   <br>
-  <br> <br>
+  <br> 
   <br>
   <br> 
   <h1>HOLA COMPAS</h1>  
