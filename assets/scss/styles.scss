@@ -10,18 +10,11 @@ License: GNU General Public License V2
 
 
 @import 'fonts'; 
-<<<<<<< HEAD
-@import 'main';
-=======
-<<<<<<< HEAD
 @import 'variables';
 @import 'main';
-=======
-// @import 'main';
->>>>>>> 76e6c3d1ce98e1c152e70ddf5a94447e334dcccb
 @import'media-queries'; 
 @import 'torneos';
->>>>>>> 71ef2a4d5fddaaecbe3404901832ed784e0fcd22
+
 
 //@include font-face('nombreAsignado', 'Nombre del archivo', 'nombre de la carpeta', 'si no encuentra, por defecto serif' );
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
@@ -54,12 +47,6 @@ License: GNU General Public License V2
     background: blue;
 }
 
-
-
-<<<<<<< HEAD
-
-
-=======
 body{
     // width: 100%;
     // height: 100%;
@@ -70,9 +57,4 @@ body{
 h1{
 	font-family:"BitsumisRegular";
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> be06234fa9fc93681f42d71ec2bb917b09daf8b9
->>>>>>> 71ef2a4d5fddaaecbe3404901832ed784e0fcd22
->>>>>>> 76e6c3d1ce98e1c152e70ddf5a94447e334dcccb
