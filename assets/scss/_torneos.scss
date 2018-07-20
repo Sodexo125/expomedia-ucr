@@ -1,3 +1,10 @@
+// color de fondo del body
+.BodyBg{
+	background: #f2f2f2;
+	overflow-x: hidden;
+
+}
+// imagen del header 
 header{
 	.imgHeader {
 		margin:0;
@@ -9,11 +16,148 @@ header{
 	}
 }
 }
+
+// titulo (Torneo,...)
 .titlePage{
 	  margin-top: 8%;
 	h1{
 		font-family: 'BitsumisRegular';
     text-align: center;
+    color:black;
 	}
     
 }
+
+
+section{
+	background-color: white;
+	margin-bottom: 2%;
+	margin-left: 10%!important;
+  margin-right: 10%!important;
+	padding: 3%;
+}
+ul > li{
+    display: inline;
+}
+
+/*Estilo para los span*/
+span{
+	color: #141414;
+}
+
+/*Estilo para los h5*/
+h5{
+	margin: 0px;
+}
+
+/*Estilo para los h3*/
+h3{
+	margin-left: 20px;
+	font-family: 'MontserratRegular';
+}
+
+/*Estilo para todos los li*/
+li{
+	font-family: 'MontserratRegular';
+	display: inline-block;
+}
+
+/*Estilo para todos los p*/
+p{
+	margin-bottom: 0;
+	font-family: 'MontserratRegular';
+}
+
+
+/*Estilo para el select*/
+select{
+	width: 200px;
+	height: 50px;
+	color: #8f268e;
+	background-color: #FBCDFC;
+	border: solid #FBCDFC;
+	border-radius: 4px;
+	padding-left: 15px;
+}
+.col{
+	max-width: 35%!important;
+	margin-bottom: 2%;
+}
+
+
+
+.tournament{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .round {
+    width: 250px;
+  }
+  
+  .offset {
+    width: 30px;
+  }
+  
+  .round, .offset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    
+    .spacer { 
+      flex-grow: 1;
+      min-height: 20px;
+   
+      &:first-child, &:last-child {
+        flex-grow: .5;
+      }
+    }
+    
+    .square {
+      height: 60px;
+      width: 25px;
+      margin-left: 5px;
+      border-radius: 0 5px 5px 0;
+      border: 2px solid $color-dark;
+      border-left: none;
+    }
+    
+
+    .line {
+      height: 2px;
+      background-color: $color-dark;
+      margin-right: 5px;
+      width: 15px;
+    }
+    
+    .game {
+      background-color: $color-gray-light;
+      box-shadow: 1px 1px 2px 0 $color-gray-light;
+      border-radius: 2px;
+      
+      .player {
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 16px;
+        color: $color-dark;
+        
+        &.winner {
+          font-weight: bold;
+        }
+        
+        &.loser {
+          color: $color-gray;
+        }
+   
+        &:nth-child(odd) {
+          border-bottom: 1px solid #d3d3d3;
+        }
+        &:nth-child(even) {
+          border-top: 1px solid #fff;
+        }
+      }
+    }
+  }
