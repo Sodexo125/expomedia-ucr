@@ -1,7 +1,24 @@
+/*!
+Theme Name:TM7200
+Template Theme URI: http://www.srp.ucr.ac.cr/
+Author:Grupo TM7200 - III 2018
+Author URI: hhttp://www.srp.ucr.ac.cr/
+Description: Tema del curso Desarrollo Rápido de Aplicaciones.
+Version: 1.0
+License: GNU General Public License V2
+*/
+
+@import 'fonts'; 
+@import 'main';
+
+//@include font-face('nombreAsignado', 'Nombre del archivo', 'nombre de la carpeta', 'si no encuentra, por defecto serif' );
+@include font-face('barlowRg', 'barlow-condensed-v1-latin-regular', 'barlow-condensed-v1-latin', 'serif' );
+h1,h2,h3,h4,h5,a,p{font-family: "barlowRg"; }
+
+
+
 body{
-    width: 100%;
-    height: 100%;
-    background: #fefefe;
-    color: red;
-   
+    // width: 100%;
+    // height: 100%;
+    background: #777;   
 }

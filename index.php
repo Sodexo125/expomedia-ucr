@@ -11,8 +11,18 @@
     <title>Expomedia | UCR</title>
   </head>
   <body>
-    <h1>EXPOMEDIA Hello, world!</h1>
-    
+  <header>
+    <?php @include('./includes/menu.php'); ?>
+      
+  </header>
+  <br>
+  <br>
+  <br> <br>
+  <br>
+  <br> <br>
+  <br>
+  <br> 
+  <h1>HOLA COMPAS</h1>  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
