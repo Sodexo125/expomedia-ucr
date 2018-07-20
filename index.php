@@ -11,18 +11,31 @@
     <title>Expomedia | UCR</title>
   </head>
   <body>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm bg-green">
+          One of three columns
+        </div>
+        <div class="col-sm bg-red">
+          One of three columns
+        </div>
+        <div class="col-sm bg-blue">
+          One of three columns
+        </div>
+      </div>
+    </div> -->
+
   <header>
     <?php @include('./includes/menu.php'); ?>
-      
+    <div class="embed-responsive embed-responsive-16by9 videoHeader border-bottom">
+      <video class="embed-responsive-item" src="./assets/video/videoHeader2.mp4" autoplay loop muted></video>
+    </div>
+    <div class="textHeader">
+		  <h1>EXPOMEDIA</h1>
+		  <button type="button" class="btn btn-header">INSCRIBETE</button>
+	  </div>
   </header>
-  <br>
-  <br>
-  <br> 
-  <br>
-  <br> 
-  <br>
-  <br> 
-  <h1>HOLA COMPAS</h1>  
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
