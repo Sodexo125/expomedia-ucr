@@ -24,16 +24,26 @@ header{
 		font-family: 'BitsumisRegular';
     text-align: center;
     color:black;
+    margin-bottom:50px
 	}
     
 }
+
+.trofeo{
+  @include respond-to($phone){
+   margin-left:28%;
+  }
+
+
+}
+
 
 
 section{
 	background-color: white;
 	margin-bottom: 2%;
-	margin-left: 10%!important;
-  margin-right: 10%!important;
+	// margin-left: 10%!important;
+ //  margin-right: 10%!important;
 	padding: 3%;
 }
 ul > li{
@@ -79,10 +89,10 @@ select{
 	border-radius: 4px;
 	padding-left: 15px;
 }
-.col{
-	max-width: 35%!important;
-	margin-bottom: 2%;
-}
+// .col{
+// 	max-width: 35%!important;
+// 	margin-bottom: 2%;
+// }
 
 
 
