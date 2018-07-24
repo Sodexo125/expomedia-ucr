@@ -1,37 +1,25 @@
 
+/*Estilo para las imágenes*/
 .personaA{
 	width: 70%;
   height: 62%;
   float: left;
   margin-left: 6.6%;
   margin-top: 3%;
-
   img{
   	width: 100%;
     height: 100%;
   }
 }
 
-
-
-.personaB{
-	width: 70%;
-  height: 62%;
-  float: left;
-  margin-left: 7.6%;
-  margin-top: 2%;
-  img{
-  	width: 100%!important;
-    height: 100%!important;
-  }
-}
-
+/*Estilo para la sección de la información*/
 .info{
   /*width: 80.4%;*/
   height: 420px;
   margin-bottom: 6%;
 }
 
+/*Estilo para cambiar las imágenes en el carousel*/
 .contenedor-Slide{
 	width: 23.5%;
   height: 100%;
@@ -44,6 +32,7 @@
   }
 }
 
+/*Estilo para el contenedor del texto*/
 .contenedor-Txt{
 	font-family: 'MontserratRegular';
 	width: 76%;
@@ -57,31 +46,7 @@
   }
 }
 
-.cont-personas {
-  position: absolute;
-  width: 90%;
-  height: 60%;
-  margin-left: 5%;
-  margin-top: 37%;
-  background: #fff;
-  h3{
-    font-size: 0.5rem;
-  }
-}
-
-.fila-arriba{
-	width: 100%;
-  height: 50%;
-}
-
-.filas{
-	width: 80%;
-  height: 50%;
-  margin-left: 10%;
-}
-
-
-/*carousel*/
+/*Estilo para el carousel*/
 .carousel-indicators li{
 	border-radius: 50%;
   height: 8px;
@@ -98,38 +63,4 @@
 
 .carousel-control-next, .carousel-control-prev{
 	color:white!important;
-}
-
-/*contenedores con información*/
-.contenedor-info{
-	position: absolute;
-  width: 90%;
-  height: 58%;
-  margin-left: 5%;
-  margin-top: 62%;
-}
-
-.contenedor-Slide{
-	width: 23.5%;
-  height: 100%;
-  float: left;
-  background: #fff;
-  img{
-    width: 80%!important;
-    margin-top: 20%;
-    margin-left: 20%;
-  }
-}
-
-.contenedor-Txt{
-	font-family: 'MontserratRegular';
-	width: 76%;
-  height: 100%;
-	padding-right: 20px;
-  float: left;
-  background: #fff;
-  div{
-    margin-top: 10%;
-    margin-left: 10%;
-  }
 }
