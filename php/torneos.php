@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/styles.css">
@@ -32,21 +32,21 @@
   </div>
   
   <!-- Sección de los campeones -->
-  <section>
+  <div class="container-fluid">
+    <section>
     <div class="row">
-      <div class="col-12">
+      <div class="col-sm-12">
         <ul>
-          <li><img src="../assets/images/iconTrophy.png" alt="iconTrophy"></li>
+          <li class="trofeo"><img src="../assets/images/iconTrophy.png" alt="iconTrophy"></li>
           <li><h3>Campeones</h3></li>
         </ul>
       </div>
     </div>
-
     <div class="row justify-content-center">
-      <div class="col">
+      <div class="col-lg-2 offset-lg-1 col-sm-6 col-md-3">
         <img src="../assets/images/torneoGanador01.png" alt="ganador01">
       </div>
-      <div class="col">
+      <div class="col-lg-2  col-sm-6 col-md-3">
         <p>
           TORNEO: <br>
           LEGUAGE OF LEGENDS<br>
@@ -56,10 +56,10 @@
         </p>
       </div>
 
-      <div class="col">
+      <div class="col-lg-2 offset-lg-1 col-sm-6 col-md-3">
         <img src="../assets/images/torneoGanador02.png" alt="ganador02">
       </div>
-      <div class="col">
+      <div class="col-lg-2  col-sm-6 col-md-3">
         <p>
           TORNEO: <br>
           SUPER SMASH BROS WII U<br>
@@ -71,6 +71,8 @@
 
     </div>
   </section>
+  </div>
+  
   <section>
     <!-- Metodo utilizado para cambiar un imagen con un select -->
     <select id="select" name="op-select">
