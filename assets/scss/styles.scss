@@ -8,11 +8,12 @@ Version: 1.0
 License: GNU General Public License V2
 */
 
-@import 'fonts'; 
-@import'media-queries'; 
+@import 'fonts';
+@import'media-queries';
 @import 'variables';
 @import 'main';
 @import 'torneos';
+@import 'conferen_capac';
 
 //@include font-face('nombreAsignado', 'Nombre del archivo', 'nombre de la carpeta', 'si no encuentra, por defecto serif' );
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
@@ -25,8 +26,6 @@ License: GNU General Public License V2
 	@include respond-to($phone){
 		margin-top:35px;
 	}
-
-
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
