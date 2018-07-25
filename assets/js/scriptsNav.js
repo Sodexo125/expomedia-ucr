@@ -1,10 +1,4 @@
    $(document).ready(function() {
-$(window).resize(function(){
-if (screen.width > 991) {
-      $(".toggled").toggleClass("toggled");
-          }
-
-         });
 $(window).scroll(function(){
 if (screen.width > 768) {
         console.log('entró pc');
@@ -28,7 +22,5 @@ if (screen.width > 768) {
          });
       });
 
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-      });
+
+    
