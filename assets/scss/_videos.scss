@@ -1,6 +1,5 @@
 /*Estilo para el col-4 de esta pagina*/
 .newCol4{
-  max-width: 25% !important;
   margin-bottom: 5%!important;
 }
 
@@ -19,13 +18,6 @@
   @include respond-to($tablet-portrait){
     margin-left: -2px!important;
     font-size: 1.2rem;
-  }
-}
-
-/*Estilo del responsive para el col de esta pagina*/
-.newCol{
-  @include respond-to($phone){
-    max-width: 50% !important;
   }
 }
 
