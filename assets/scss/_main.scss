@@ -40,6 +40,8 @@ body {
   background: #fff;
 }
 
+
+
 .navbar {
   transition-property: all;
   transition-duration: 0.5s;
@@ -110,7 +112,7 @@ body {
 /*Estilo para el footer*/
 .vFooter{
   @include respond-to($tablet-landscape){ 
-  position:absolute; 
+  position:fixed; 
   bottom:0; 
  
 }
@@ -203,3 +205,27 @@ body {
   }/*fin list*/
 }/*fin menuFoot*/
 
+
+.rosa {
+   transition-property: all;
+  transition-duration: 0.5s;
+    background:rgba(247, 111, 215, 0.9)!important;
+    margin-top: 0;
+    height: 74px;
+
+}
+
+.rosa img {
+  
+  width: 49px;
+    height: auto;
+    margin-top: 0;
+    margin-left: 25px;
+
+}
+.rosa.navbar-dark .navbar-nav .nav-link{
+  color:#fff!important;
+      padding-bottom: 81px;
+      padding-top: 78px;
+          
+}
