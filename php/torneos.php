@@ -57,7 +57,7 @@
       </div>
       
     </div>
-    <!-- header seccion campeones(icono y texto) -->
+    <!-- fin header seccion campeones(icono y texto) -->
 
       <!-- Ganador de los torneos -->
     <div class="row justify-content-sm-center">
@@ -93,7 +93,7 @@
     </div>
      </div>
   </section>
-  <!-- Gandor de los torneos -->
+  <!-- fin Gandor de los torneos -->
 
 
       <section>
@@ -111,8 +111,10 @@
             </div>
           </div>
         </div>
-        <div class="TournamentBox">
-          
+        <!-- fin selector de torneo -->
+
+<!-- Torneo a mostrar -->
+        <div class="TournamentBox">  
       <!-- Tournament lol-->
 <div class="op1 bracket ">
   <section class="round quarterfinals">
@@ -274,19 +276,13 @@
 </div>
 <!-- tournament smash --> 
         </div>
-   
+   <!-- fin torneo a mostrar -->
   </section>
    
  
   	
   
-<!-- <div class="container-fluid">
-      <div class="row">
-      <div class="col-sm-12"> -->
-          <!-- include -->
-     <!--  </div>
-    </div>
-</div> -->
+<?php @include('../includes/footer.php'); ?>
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
