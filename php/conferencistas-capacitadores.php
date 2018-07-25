@@ -35,81 +35,81 @@
     <div class="container-fluid">
       <!--Primera linea-->
       <div class="row">
-    		<div class="col newCol">
+    		<div class="col-sm newColSm">
           <a id="primero" onclick="info1()">
             <div data-target= "#carouselExampleControls" data-slide-to= "0" class="personaA" >
               <img class="img-fluid" src="../assets/images/editPS03.jpg" alt="">
-              <h3>John Wayne</h3>
+              <h3 class="newH3">John Wayne</h3> 
             </div>
           </a>
     		</div>
-        <div class="col newCol">
+        <div class="col-sm newColSm">
           <a id="segundo" onclick="info2()">
             <div data-target= "#carouselExampleControls" data-slide-to= "1" class="personaA">
               <img class="img-fluid" src="../assets/images/editPS04.jpg" alt="">
-              <h3>Clint Eastwood</h3>
+              <h3 class="newH3">Clint Eastwood</h3>
             </div>
           </a>
         </div>
-        <div class="col newCol">
+        <div class="col-sm newColSm">
           <a id="tercero" onclick="info3()">
             <div data-target= "#carouselExampleControls" data-slide-to= "2" class="personaA">
               <img class="img-fluid" src="../assets/images/editPS01.jpg" alt="">
-              <h3>Dayanna Jiménez</h3>
+              <h3 class="newH3">Dayanna Jiménez</h3>
             </div>
           </a>
         </div>
-        <div class="col newCol">
+        <div class="col-sm newColSm">
           <a id="cuarto" onclick="info4()">
             <div data-target= "#carouselExampleControls" data-slide-to= "3" class="personaA">
               <img class="img-fluid" src="../assets/images/editPS02.jpg" alt="">
-              <h3>Sebastián Brenes</h3>
+              <h3 class="newH3">Sebastián Brenes</h3>
             </div>
           </a>
         </div>
   	  </div> <!--Fin del row-->
       <!--Segunda linea-->
       <div class="row">
-        <div class="col newCol">
+        <div class="col-sm newColSm">
           <a id="quinto" onclick="info5()">
             <div data-target= "#carouselExampleControls" data-slide-to= "4" class="personaA">
               <img class="img-fluid" src="../assets/images/editPS05.jpg" alt="">
-              <h3>Enrique Soto V.</h3>
+              <h3 class="newH3">Enrique Soto V.</h3>
             </div>
           </a>
         </div>
-        <div class="col newCol">
+        <div class="col-sm newColSm">
           <a id="sexto" onclick="info6()">
             <div data-target= "#carouselExampleControls" data-slide-to= "5" class="personaA">
               <img class="img-fluid" src="../assets/images/editPS04.jpg" alt="">
-              <h3>Andy Vásquez</h3>
+              <h3 class="newH3">Andy Vásquez</h3>
             </div>
           </a>
         </div>
-        <div class="col newCol">
+        <div class="col-sm newColSm">
           <a id="septimo" onclick="info7()">
             <div data-target= "#carouselExampleControls" data-slide-to= "6" class="personaA">
               <img class="img-fluid" src="../assets/images/editPS06.jpg" alt="">
-              <h3>Lucas Mora C.</h3>
+              <h3 class="newH3">Lucas Mora C.</h3>
             </div>
           </a>
         </div>
-        <div class="col newCol">
+        <div class="col-sm newColSm">
           <a id="octavo" onclick="info8()">
             <div data-target= "#carouselExampleControls" data-slide-to= "7" class="personaA">
               <img class="img-fluid" src="../assets/images/editPS06.jpg" alt="">
-              <h3>Josefina Torres</h3>
+              <h3 class="newH3">Josefina Torres</h3>
             </div>
           </a>
         </div>
       </div><!--fin del row-->
       <!--Tercera linea-->
       <div class="row justify-content-center">
-        <div class="col-4 newCol">
+        <div class="col-sm-4 newColSm">
           <a id="noveno" onclick="info9()">
             <div data-target= "#carouselExampleControls" data-slide-to= "8" class="personaA">
               <img class="img-fluid" src="../assets/images/editPS01.jpg" alt="">
-              <h3>Mónica Rodríguez S.</h3>
+              <h3 class="newH3">Mónica Rodríguez S.</h3>
             </div>
           </a>
         </div>
