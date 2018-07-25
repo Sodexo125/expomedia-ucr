@@ -13,7 +13,7 @@
 }
 
 /*Responsive del section*/
-section{
+.newSection{
 	@include respond-to($phone){
     margin-bottom: 5%!important;
 		padding-bottom: 7%!important;
@@ -28,7 +28,7 @@ section{
 }
 
 /*Responsive para los h2*/
-h2{
+.newH2{
 	@include respond-to($phone){
     font-size: 1.4rem!important;
 		text-align: center;
@@ -36,7 +36,7 @@ h2{
 }
 
 /*Responsive para los a*/
-a{
+.newA{
 	@include respond-to($phone){
     font-size: 0.5rem!important;
   }

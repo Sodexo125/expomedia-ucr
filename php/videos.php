@@ -67,25 +67,25 @@
         <div class="col-6 newCol6">
           <div id="texto1">
             <h3 class="newMarginH3">Exposición de fotografía por John Wayne</h3>
-            <p>
+            <p class="newP">
               El fotógrafo John Wayne ha ejercido su profesión durante muchos años, administra su propia empresa y ha impartido lecciones de fotografía en universidades.
             </p>
           </div>
           <div id="texto2" style="display:none;">
             <h3 class="newMarginH3">Taller sobre dibujo básico por Sebastian Brenes</h3>
-            <p>
+            <p class="newP">
               Estudiante de la carrera de Informática y Tecnología Multimedia, influenciado por su padre (escultor) y madre (profesora de ballet), se dedicó a pulir sus habilidades en el dibujo.
             </p>
           </div>
           <div id="texto3" style="display:none;">
             <h3 class="newMarginH3">Taller sobre arduinos por John Wayne</h3>
-            <p>
+            <p class="newP">
               Es un Database Manager, Scrum Master y Big Data: Web Mining costarricense/inglés, dedicado al desarrollo de software de análisis de datos aplicados y aprendizaje estadístico automático, y a empresas para la resolución de problemas en una pymes, mediana o grande empresa.
             </p>
           </div>
           <div id="texto4" style="display:none;">
             <h3 class="newMarginH3">Torneo de League of Legends (L.O.L)</h3>
-            <p>
+            <p class="newP">
               Es un videojuego de género multiplayer online battle arena (MOBA) y deporte electrónico desarrollado por Riot Games para Microsoft Windows y OS X.
             </p>
           </div>
