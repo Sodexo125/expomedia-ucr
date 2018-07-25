@@ -10,93 +10,118 @@
 	<title>ExpoMedia | Torneos</title>
 </head>
 <body class="BodyBg">
+  <!-- inicio header -->
 	  <header>
-    <div class="container-fluid">
+<!-- navbar -->
+    <!-- <div class="container-fluid">
     	<div class="row">
-			<div class="col-sm-12">
-				  <?php @include('../includes/menu2.php'); ?>
-			</div>
-		</div>
-    	<div class="row">
-    		<div class="imgHeader col-sm-12"><img src="../assets/images/torneoHeader.png" alt="Ganadores-pasados-del-torneo-de-League-of-Legends"></div>
-    	</div>
-    </div>
-  
+			<div class="col-sm-12"> -->
+				 <!-- include  -->
+			<!-- </div>
+		</div> -->
+<!-- navbar -->
+
+      <!-- Imagen del header -->
+<div class="container-fluid">
+  <div class="row">
+        <div class="imgHeader col-xs-12 col-sm-12 col-md-12 col-lg-12"><img src="../assets/images/torneoHeader.png" alt="Ganadores-pasados-del-torneo-de-League-of-Legends"></div>
+      </div>
+</div>
+<!-- imagen del header -->
   </header>
+<!-- fin del header -->
+
+   <!-- titulo torneos -->
   <div class="container-fluid">
   	<div class="row">
-  		<div class="col-sm-12 titlePage">
+  		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titlePage">
   			<h1>TORNEOS</h1>
   		</div>
 	</div>
   </div>
+  <!-- fin titulo torneos -->
   
+
   <!-- Sección de los campeones -->
-  <div >
     <section>
-      <div class="container">
-        
-     
-    <div class="row">
-      <div class="col-sm-12">
-        <ul>
-          <li class="trofeo"><img src="../assets/images/iconTrophy.png" alt="iconTrophy"></li>
-          <li><h3>Campeones</h3></li>
-        </ul>
+      <!-- header seccion campeones(icono y texto) -->
+      <div class="container-fluid">
+    <div class="row justify-content-center justify-content-md-start">
+      <div class="col-7 col-sm-3 col-md-3 col-lg-3">
+          <div class="trofeo center-block"><img src="../assets/images/iconTrophy.png" alt="iconTrophy"></div>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-2 offset-lg-1 col-sm-6 col-md-3">
+    <div class="row justify-content-center justify-content-md-start">
+      <div class="col-7 col-sm-3 col-md-3 col-lg-3 titlecampeones">
+          <h3>Campeones</h3>
+      </div>
+      
+    </div>
+    <!-- header seccion campeones(icono y texto) -->
+
+      <!-- Ganador de los torneos -->
+    <div class="row justify-content-sm-center">
+      <div class="col-md-2 col-6">
         <img src="../assets/images/torneoGanador01.png" alt="ganador01">
       </div>
-      <div class="col-lg-2  col-sm-6 col-md-3">
-        <p>
-          TORNEO: <br>
-          LEGUAGE OF LEGENDS<br>
-          <br>
-          NOMBRE DEL EQUIPO:<br>
-          B.R.U.M.A.S
-        </p>
+      <div class="col-md-3 col-6 mr-auto">
+        <h6>TORNEO:</h6>
+           <p>............</p>
+         <h6>
+            NOMBRE DEL EQUIPO:
+         </h6>
+         <p>
+           ................
+         </p><br>
       </div>
 
-      <div class="col-lg-2 offset-lg-1 col-sm-6 col-md-3">
+      <div class="col-md-2 col-6">
         <img src="../assets/images/torneoGanador02.png" alt="ganador02">
       </div>
-      <div class="col-lg-2  col-sm-6 col-md-3">
-        <p>
-          TORNEO: <br>
-          SUPER SMASH BROS WII U<br>
-          <br>
-          NOMBRE DEL GANADOR(A):<br>
-          LUCÍA MORERA
-        </p>
+      <div class="col-md-3 col-6 ">
+          <h6>TORNEO:</h6>
+           <p>............</p>
+         <h6>
+            NOMBRE DEL GANADOR:
+         </h6>
+         <p>
+           ................
+         </p>
+      </div>
       </div>
 
     </div>
      </div>
   </section>
+  <!-- Gandor de los torneos -->
 
 
-         <!-- <section> -->
-    <!-- Metodo utilizado para cambiar un imagen con un select -->
-   <!--  <select id="select" name="op-select">
+      <section>
+        <div class="container-fluid">
+            <!-- Selector de torneo -->
+          <div class="row">
+            <div class="col-4">
+    <select id="select" name="op-select">
       <option value="op0" selected>Escoge el torneo</option>
       <option value="op1">League of Legends</option>
       <option value="op2">Super Smash Bros</option>
     </select>
-    <br><br> -->
-    <!--
-    <img id="imageToSwap" class="profile" src="img/torneoLoLGif.gif">
-    -->
-      <!-- Tournament -->
-<!-- <div class="op1 bracket ">
+    <br><br>
+
+            </div>
+          </div>
+        </div>
+        <div class="TournamentBox">
+          
+      <!-- Tournament lol-->
+<div class="op1 bracket ">
   <section class="round quarterfinals">
     <div class="winners">
       <div class="matchups">
         <div class="matchup">
           <div class="participants">
             <div class="participant winner"><span>Uno</span></div>
-            <div class="participant"><span>Ocho</span></div>
+            <div class="participant loser"><span>Ocho</span></div>
           </div>
         </div>
         <div class="matchup">
@@ -167,14 +192,15 @@
     </div>
   </section>
 </div>
-tournament
+<!-- tournament lol-->
+<!-- tournament Smash -->
 <div class="op2 bracket">
   <section class="round quarterfinals">
     <div class="winners">
       <div class="matchups">
         <div class="matchup">
           <div class="participants">
-            <div class="participant winner"><span>puta</span></div>
+            <div class="participant winner"><span>uno</span></div>
             <div class="participant"><span>Ocho</span></div>
           </div>
         </div>
@@ -245,25 +271,33 @@ tournament
       </div>
     </div>
   </section>
-</div> -->
+</div>
+<!-- tournament smash --> 
+        </div>
+   
   </section>
    
  
   	
   
-<div class="container-fluid">
+<!-- <div class="container-fluid">
       <div class="row">
-      <div class="col-sm-12">
-          <?php @include('../includes/footer.php'); ?>
-      </div>
+      <div class="col-sm-12"> -->
+          <!-- include -->
+     <!--  </div>
     </div>
-</div>
+</div> -->
   <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     <script>
+
+
+
+
+
       /*funcion para mostrar/esconder el div tournament con el select*/
   $(function(){
     $("select").change(function(){
