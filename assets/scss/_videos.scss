@@ -10,7 +10,7 @@
 
 /*Estilo para el margin y responsive del h3 de esta pagina*/
 .newMarginH3{
-  margin-left: -2px!important;
+  text-align: center;
   @include respond-to($phone){
     font-size: 1rem;
     margin-left: -2px!important;
@@ -28,18 +28,11 @@
   }
 }
 
-.responsiveH3{
-  @include respond-to($phone){
-    font-size: 1rem;
-    margin-left: 1px;
-  }
-  @include respond-to($tablet-portrait){
-    font-size: 1.2rem;
-    margin-left: 1px;
-  }
-  @include respond-to($tablet-landscape){
-    font-size: 1rem;
-    margin-left: 1px;
+.newA{
+  color: $color-dark;
+  &:hover{
+    text-decoration: none;
+    color: $color-dark;
   }
 }
 
