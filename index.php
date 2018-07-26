@@ -19,7 +19,7 @@
       <video class="embed-responsive-item" src="./assets/video/videoHeader2.mp4" autoplay loop muted></video>
     </div>
     <div class="textHeader">
-      <h1>EXPOMEDIA</h1>
+      <h1>Leandro</h1>
       <!-- <button type="button" class="btn btn-header">INSCRIBETE</button> -->
     </div>
   </header>
