@@ -8,6 +8,7 @@ Version: 1.0
 License: GNU General Public License V2
 */
 
+
 @import 'fonts';
 @import'media-queries';
 @import 'variables';
@@ -20,6 +21,7 @@ License: GNU General Public License V2
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
 @include font-face('MontserratRegular', 'montserrat-regular-webfont', 'Montserrat', 'serif' );
 
+
 ////////////////////////////// Responsive //////////////////////////////////////////////////////////////////
 // nombre de la clase o id contenedor
 .webCard{
@@ -29,6 +31,7 @@ License: GNU General Public License V2
 	}
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 .top-nav{
