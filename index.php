@@ -77,8 +77,6 @@
                   document.getElementById("contenido").classList.toggle('efectoBluirVideo');
                   document.getElementById("titulo-expomedia").classList.toggle('efectoBluirVideo');
                   document.getElementByTa("ul").classList.toggle('container');
-                  
-                 
             }
       </script>
 
