@@ -1,22 +1,23 @@
-body {
-    font-size: 16px;
-    background: #1c1c1c;
-}
 
 .videoHeader {
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+.textolbd{
+   z-index: 2 !important;
 }
 
 .textHeader {
-  width: 100%;
-  height: 50px;
-  position: relative;
-  margin-top: -38%;
-  // margin-left: 37%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    // background: red;
+    padding-top: 20%;
   h1 {
     text-align: center;
-    font-family: 'BitsumisRegular' ;
+    font-family: 'BitsumisRegular';
     color: #fff;
     font-size: 4rem;
     @include respond-to($phone){
@@ -26,25 +27,16 @@ body {
   }
 }
  
-.top-nav{
-    padding-top: 0px;
+ul{
+  li{
+    a{
+      font-family: 'MontserratRegular';
+      &:hover {
+        color:$color-cian !important;
+      }
+    }
+  }
 }
-.bg-green{
-    background: green;
-}
-
-.bg-red{
-    background: red;
-}
-
-.bg-blue{
-    background: blue;
-}
-
-
-
-
-
 
 
 // ESTILOS DEL MENU A PRUEBA
@@ -58,15 +50,22 @@ body {
 }
 
 nav {
-  background: transparent !important;
+  background: rgba(255,255,255,0.4);
 }
 
+// Boton menu
 .navbar-toggler {
   z-index: 100 !important;
 }
-
+// Logo
 .navbar-brand {
   z-index: 100 !important;
+}
+
+// videoheader
+.videoHeader{
+ z-index: 1 !important;
+
 }
 
 @media (min-width: 0px) and (max-width: 576px) {
@@ -81,9 +80,6 @@ nav {
   transition: all 0.1s ease;
 }
 
-/* @media (min-width: 576px) and (max-width: 991px) {
-  body{background: green !important;
-} */
 
 @media (max-width: 768px) {
   .navbar-collapse {
@@ -148,14 +144,13 @@ nav {
     }
 }/*Fin del vFooter*/
 
+
 /*Estilo de las imagenes dentro del footer*/
 .img-footer{
   @include respond-to($phone){
        margin:0;
         margin-top: 10px;
         padding:0;
-       
-
   }
     margin-top: 31px;
     width: 100px;

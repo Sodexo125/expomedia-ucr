@@ -1,5 +1,5 @@
  
-<nav class="navbar navbar-expand-md navbar-dark  fixed-top">
+<nav id="mynav" class="navbar navbar-expand-md navbar-dark  fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
             <img src="./assets/images/logo-itm.png" class="img-responsive logo" alt="logo">
@@ -36,11 +36,13 @@
 </nav>
 
 
+
 <div id="videoITM" class="embed-responsive embed-responsive-16by9 videoHeader border-bottom">
     <video class="embed-responsive-item" src="./assets/video/videoHeader2.mp4" autoplay loop muted></video>
 </div>
 
+ <div class="textHeader">
+    <h1 id="titulo-expomedia">EXPOMEDIA</h1>
+</div> 
 
- <div id="titulo-expomedia" class="textHeader">
-    <h1>EXPOMEDIA</h1>
-</div>
+
