@@ -24,88 +24,90 @@ body {
       margin-top: 30px;
     }
   }
-  .btn-header {
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px !important;
-    background: #57ead1;
-    border: none;
-    // margin-left: 16%;
-    margin: auto;
-  }
+}
+ 
+.top-nav{
+    padding-top: 0px;
+}
+.bg-green{
+    background: green;
 }
 
-.btn-header:hover {
-  color: #57ead1;
-  background: #fff;
+.bg-red{
+    background: red;
+}
+
+.bg-blue{
+    background: blue;
 }
 
 
 
-.navbar {
-  transition-property: all;
-  transition-duration: 0.5s;
-  background: transparent !important;
-  margin-top: 0;
-  font-family: 'montserratregular';
-}
 
-.navbar-dark .navbar-nav .nav-link {
-  color: $color-white-gray;
-  padding-bottom: 81px;
-  color: $color-white;
-  // forma de incluir el media, el parametro se coloca en relacion a las variables existentes en el _media-queries.scss
-  @include respond-to($tablet-portrait){
-    padding-bottom: 0px;
-  }
-  @include respond-to($tablet-landscape ){
-    padding-bottom: 0px;
-  }
-  @include respond-to($phone){
-    padding-bottom: 0px;
-	}
-}
 
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: $color-white;
-}
 
-.dropdown-menu {
-  background: transparent !important;
-  border: none;
-  color: white !important;
-  margin-top: -80px;
-  margin-left: -184px;
-}
 
-.dropdown-item {
-  color: white;
-  margin-left: -15px;
-}
-
-.dropdown-item:hover {
-  color: #57ead1;
-  background: transparent;
-}
-
-//logo
-.favIcon img {
-  width: 80px;
+// ESTILOS DEL MENU A PRUEBA
+.logo {
+  width: 50px;
   height: auto;
-  margin-left: 25px;
-  @include respond-to($phone){
-    width: 50px;
+  @include respond-to($large-desktop) {
+    width: 60px;
     height: auto;
-    margin-left: 0px;
   }
 }
 
-.nav-rock{
-  @include respond-to($phone){
-    padding-left: 10px;
-    opacity: 0.5;
-    background: #333;
-    margin-bottom: 20px;
+nav {
+  background: transparent !important;
+}
+
+.navbar-toggler {
+  z-index: 100 !important;
+}
+
+.navbar-brand {
+  z-index: 100 !important;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5) !important;
+    z-index: 99;
+  }
+}
+
+.efectoBluirVideo {
+  filter: blur(12px);
+  transition: all 0.1s ease;
+}
+
+/* @media (min-width: 576px) and (max-width: 991px) {
+  body{background: green !important;
+} */
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 0px;
+    left: 1%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 100%;
+    /*IMPRORTANT*/
+    width: 100%;
+    transition: all 0.1s ease;
+    z-index: 1;
+  }
+  .navbar-collapse.collapsing {
+    height: auto !important;
+    transition: all 0.1s ease;
+    left: 100%;
+  }
+  .navbar-collapse.show {
+    left: 0;
+  }
+  .navbar-nav {
+    margin-top: 100px;
   }
 }
 
