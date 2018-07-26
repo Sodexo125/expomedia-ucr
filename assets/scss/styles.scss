@@ -8,18 +8,41 @@ Version: 1.0
 License: GNU General Public License V2
 */
 
+<<<<<<< HEAD
 @import 'fonts'; 
+=======
+@import 'fonts';
+@import'media-queries';
+>>>>>>> ec2dd4b647d8e590a6b831874b71db2be2a93b65
 @import 'variables';
 @import 'main';
 @import 'torneos';
+@import 'conferen_capac';
+@import 'videos';/**/
 
 //@include font-face('nombreAsignado', 'Nombre del archivo', 'nombre de la carpeta', 'si no encuentra, por defecto serif' );
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
 @include font-face('MontserratRegular', 'montserrat-regular-webfont', 'Montserrat', 'serif' );
 
+<<<<<<< HEAD
 
 
+=======
+////////////////////////////// Responsive //////////////////////////////////////////////////////////////////
+// nombre de la clase o id contenedor
+.webCard{
+// forma de incluir el media, el parametro se coloca en relacion a las variables existentes en el _media-queries.scss
+	@include respond-to($phone){
+		margin-top:35px;
+	}
+}
+////////////////////////////////////////////////////////////////////////////////////////////////
+>>>>>>> ec2dd4b647d8e590a6b831874b71db2be2a93b65
 
+
+.top-nav{
+    padding-top: 0px;
+}
 .bg-green{
     background: green;
 }
