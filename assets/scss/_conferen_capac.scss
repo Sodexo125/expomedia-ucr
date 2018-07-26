@@ -20,10 +20,16 @@
   }
 }
 
-/*Responsive para los col*/
-.newCol{
+/*Responsive los col*/
+.newColSm{
   @include respond-to($phone){
-    max-width: 50% !important;
+    padding-left: 10% !important;
+  }
+}
+
+.newH3{
+	@include respond-to($phone){
+    margin-left: -1px !important;
   }
 }
 

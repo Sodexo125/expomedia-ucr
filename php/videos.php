@@ -35,7 +35,7 @@
     <!--Sección para mostrar los videos-->
     <section>
       <div class="row">
-        <div class="col-6 newCol6">
+        <div class="col-md-6 newCol6">
           <div id= "carouselExampleSlidesOnly" class= "carousel  contenedor-Slide newWidthSlide" data-interval="0">
             <div id= "carouselExampleControls" class= "carousel" data-interval="0">
               <div class= "carousel-inner">
@@ -64,7 +64,7 @@
             </div>
           </div>
         </div><!--fin del col-6 -->
-        <div class="col-6 newCol6">
+        <div class="col-md-6 newCol6">
           <div id="texto1">
             <h3 class="newMarginH3">Exposición de fotografía por John Wayne</h3>
             <p class="newP">
@@ -95,28 +95,28 @@
       <div class="container-fluid">
         <!--Primera linea-->
         <div class="row">
-      		<div class="col-4 newCol4">
+      		<div class="col-3 newCol4">
             <a id="primero" onclick="info1()">
               <div data-target= "#carouselExampleControls" data-slide-to="0">
                 <img class="img-fluid" src="../assets/images/streamsCharla.png" alt="">
               </div>
             </a>
       		</div>
-          <div class="col-4 newCol4">
+          <div class="col-3 newCol4">
             <a id="segundo" onclick="info2()">
               <div data-target= "#carouselExampleControls" data-slide-to="1">
                 <img class="img-fluid" src="../assets/images/streamsTaller01.png" alt="">
               </div>
             </a>
           </div>
-          <div class="col-4 newCol4">
+          <div class="col-3 newCol4">
             <a id="tercero" onclick="info3()">
               <div data-target= "#carouselExampleControls" data-slide-to="2">
                 <img class="img-fluid" src="../assets/images/streamsTaller02.png" alt="">
               </div>
             </a>
           </div>
-          <div class="col-4 newCol4">
+          <div class="col-3 newCol4">
             <a id="cuarto" onclick="info4()">
               <div data-target= "#carouselExampleControls" data-slide-to="3">
                 <img class="img-fluid" src="../assets/images/streamsTorneo.png" alt="">
@@ -134,25 +134,25 @@
         <h3 class="confTitulo">Conferencistas y capacitadores</h3>
         <!--Primera linea-->
         <div class="row">
-      		<div class="col newCol">
+      		<div class="col-sm newColSm">
             <a id="primero" class="personaA" src="conferencistas-capacitadores.php">
               <img class="img-fluid" src="../assets/images/editPS03.jpg" alt="">
               <h3 class="responsiveH3">John Wayne</h3>
             </a>
       		</div>
-          <div class="col newCol">
+          <div class="col-sm newColSm">
             <a id="segundo" class="personaA" src="conferencistas-capacitadores.php">
               <img class="img-fluid" src="../assets/images/editPS04.jpg" alt="">
               <h3 class="responsiveH3">Clint Eastwood</h3>
             </a>
           </div>
-          <div class="col newCol">
+          <div class="col-sm newColSm">
             <a id="tercero" class="personaA" src="conferencistas-capacitadores.php">
               <img class="img-fluid" src="../assets/images/editPS01.jpg" alt="">
               <h3 class="responsiveH3">Dayanna Jiménez</h3>
             </a>
           </div>
-          <div class="col newCol">
+          <div class="col-sm newColSm">
             <a id="cuarto" class="personaA" src="conferencistas-capacitadores.php">
               <img class="img-fluid" src="../assets/images/editPS02.jpg" alt="">
               <h3 class="responsiveH3">Sebastián Brenes</h3>
