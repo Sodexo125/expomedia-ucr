@@ -94,8 +94,8 @@
 
       <div class="container-fluid">
         <!--Primera linea-->
-        <div class="row">
-      		<div class="col-md-2 col-3 newCol4">
+        <div class="row justify-content-center">
+      		<div class="col-md-2 col-3 mr-auto newCol4">
             <a id="primero" onclick="info1()">
               <div data-target= "#carouselExampleControls" data-slide-to="0">
                 <img class="img-fluid" src="../assets/images/streamsCharla.png" alt="">
@@ -109,14 +109,14 @@
               </div>
             </a>
           </div>
-          <div class="col-md-2 col-3 newCol4">
+          <div class="col-md-2 col-3 mr-auto newCol4">
             <a id="tercero" onclick="info3()">
               <div data-target= "#carouselExampleControls" data-slide-to="2">
                 <img class="img-fluid" src="../assets/images/streamsTaller02.png" alt="">
               </div>
             </a>
           </div>
-          <div class="col-md-2 col-3 newCol4">
+          <div class="col-md-2 col-3 mr-auto newCol4">
             <a id="cuarto" onclick="info4()">
               <div data-target= "#carouselExampleControls" data-slide-to="3">
                 <img class="img-fluid" src="../assets/images/streamsTorneo.png" alt="">
