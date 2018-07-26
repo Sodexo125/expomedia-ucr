@@ -15,9 +15,5 @@
 
     </div>
   </div>  
-<<<<<<< HEAD
-<!--Fin del footer-->
 
-=======
 <!--Fin del footer-->
->>>>>>> b378436f20d0bd8e357fae6f24ae0c6181f2cb41
