@@ -113,70 +113,6 @@
 //   }
 // }
 
-// /*Estilo para el footer*/
-// .vFooter{
-//     line-height: 60px;
-//     /*Estilo del h3 dentro del footer*/
-//     h3{
-//       margin-top: 22px;
-//       margin-left: 1%;
-//       font-size: 1rem;
-//       float: left;
-//       color: $color-white;
-//     }
-// }/*Fin del vFooter*/
-// .container{
-//   width: auto;
-//   padding: 0 15px;
-// }
-// /*Estilo de las imagenes dentro del footer*/
-// .img-footer{
-//   width: 100px;
-//   height: 27px;
-//   margin-top: 1.8%;
-//   margin-left: 14%;
-//   background: url(../images/footerSocial.png) no-repeat;
-//   background-size: 100%;
-//   position: absolute;
-//   float: left;
-// }
-
-// /*Estilo del pseudo menu dentro del footer*/
-// .menu-foot{
-//   width: 21%;
-//   height: 30%;
-//   margin-top:  32px;
-//   margin-left: 79%;
-//   /*Estilo del ul, li, a dentro del pseudo menu*/
-//   ul li a{
-//     font-size: 0.9rem;
-//     font-family: 'montserratregular';
-//     text-decoration: none;
-//     text-transform: uppercase;
-//     color: $color-white;
-//   }
-//   ul li:not(:first-child):before{
-//     content: ' |';
-//     padding: 0% 5% 5% 5%;
-//     color: $color-white;
-//     font-size: 1rem;
-//   }
-//   /*Estilo para los hover de los a dentro del pseudo menu*/
-//   a:hover{
-//     color:#ed4abf;
-//     transition: all .5s;
-//   }
-//   /*Estilo de la lista dentro del pseudo menu*/
-//   .list{
-//     margin-top: 10px;
-//     ul{
-//       li{
-//         display: inline;
-//       }
-//     }
-//   }/*fin list*/
-// }/*fin menuFoot*/
-
 
 
 
@@ -190,29 +126,27 @@
     width: 80px;
     height: auto;
   }
-
-
-
 }
 
 
 nav{
   background: transparent !important;
- 
 }
+
 .navbar-toggler{
   z-index:100 !important;
 }
+
 .navbar-brand{
   z-index:100 !important;  
 }
 
 @media (min-width: 0px) and (max-width: 576px) {
   .navbar-collapse {background: rgba(0,0,0,0.5) !important;
-        z-index:99 ;
-        
+        z-index:99 ;        
   }
 }
+
 .efectoBluirVideo{
   filter:blur(12px); 
   transition: all 0.1s ease;
@@ -246,5 +180,72 @@ nav{
   .navbar-nav{
         margin-top: 100px;
   }
-
 }
+
+
+
+/*Estilo para el footer*/
+.vFooter{
+  line-height: 60px;
+  /*Estilo del h3 dentro del footer*/
+  h3{
+    margin-top: 22px;
+    margin-left: 1%;
+    font-size: 1rem;
+    float: left;
+    color: $color-white;
+  }
+}/*Fin del vFooter*/
+.container{
+width: auto;
+padding: 0 15px;
+}
+/*Estilo de las imagenes dentro del footer*/
+.img-footer{
+width: 100px;
+height: 27px;
+margin-top: 1.8%;
+margin-left: 14%;
+background: url(../images/footerSocial.png) no-repeat;
+background-size: 100%;
+position: absolute;
+float: left;
+}
+
+/*Estilo del pseudo menu dentro del footer*/
+.menu-foot{
+width: 21%;
+height: 30%;
+margin-top:  32px;
+margin-left: 79%;
+/*Estilo del ul, li, a dentro del pseudo menu*/
+ul li a{
+  font-size: 0.9rem;
+  font-family: 'montserratregular';
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color-white;
+}
+ul li:not(:first-child):before{
+  content: ' |';
+  padding: 0% 5% 5% 5%;
+  color: $color-white;
+  font-size: 1rem;
+}
+/*Estilo para los hover de los a dentro del pseudo menu*/
+a:hover{
+  color:#ed4abf;
+  transition: all .5s;
+}
+/*Estilo de la lista dentro del pseudo menu*/
+.list{
+  margin-top: 10px;
+  ul{
+    li{
+      display: inline;
+    }
+  }
+}/*fin list*/
+}/*fin menuFoot*/
+
+
