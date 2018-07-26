@@ -12,17 +12,13 @@
 </head>
 <body>
 <main>
+
   <header>
     <?php @include('./includes/menu.php'); ?>
-    <!-- <div class="embed-responsive embed-responsive-16by9 videoHeader border-bottom">
-    <video class="embed-responsive-item" src="./assets/video/videoHeader2.mp4" autoplay loop muted></video>
-    </div> -->
-    <!-- <div class="textHeader">
-    <h1>Sodexo cambiado a 2.30am</h1>
-    </div> -->
   </header>
 
-  <div id="contenido">
+
+  <section id="contenido" class="contenido">
         <h1>Hello, world!</h1>
         <form>
               <div class="form-group">
@@ -40,7 +36,7 @@
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-  </div>
+  </section>
 </main>  
 
 <!-- Optional JavaScript -->
@@ -62,7 +58,21 @@
             crossorigin="anonymous"></script>
 
       <script>
-
+           $('document').ready(function(){
+                 var myNav = document.getElementById('mynav');
+                  window.onscroll = function () { 
+                  "use strict";
+                  if (document.body.scrollTop >= 200 ) {
+                        myNav.classList.add("nav-colored");
+                        myNav.classList.remove("nav-transparent");
+                  } 
+                  else {
+                        myNav.classList.add("nav-transparent");
+                        myNav.classList.remove("nav-colored");
+                  }
+                  };
+           });
+           
       // ESTO HAY QUE METERLO EN UN JS EN ASSETS
             $('#boton-menu').click(cambiarClaseVideo); //verificamos el elemento btn menu y llamamos una funcion
 
@@ -71,6 +81,7 @@
                   document.getElementById("videoITM").classList.toggle('efectoBluirVideo');
                   document.getElementById("contenido").classList.toggle('efectoBluirVideo');
                   document.getElementById("titulo-expomedia").classList.toggle('efectoBluirVideo');
+                 
             }
       </script>
 
