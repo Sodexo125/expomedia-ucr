@@ -22,160 +22,107 @@
       </div>
     </div>
   </header>
-
-  <div class="espacios"> 
-    <h1 class="infoCenterVertical">CONFERENCISTAS Y CAPACITADORES</h1>  
-  </div> 
-
-
-
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 titlePage">
+        <h1>CONFERENCISTAS Y CAPACITADORES</h1>
+      </div>
+    </div>
+  </div>
 
   <!--Section de los invitados con imagenes-->
   <section class="newSection">
     <div class="container-fluid">
-
-
       <!--Primera linea-->
       <div class="row justify-content-sm-center">
-        <div class="col-6 col-md-3 bg-red">
+    		<div class="col-md-3 col-6">
           <a id="primero" onclick="info1()">
-            <div class="card">
-              <div data-target= "#carouselExampleControls" data-slide-to="0" >
-                <img class="card-img-top" src="../assets/images/editPS03.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">John Wayne</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "0" class="personaA" >
+              <img class="img-fluid" src="../assets/images/editPS03.jpg" alt="">
+              <h3 class="newH3">John Wayne</h3>
             </div>
           </a>
-        </div><!--fin col img #1-->
-
-        <div class="col-6 col-md-3 bg-blue">
+    		</div>
+        <div class="col-md-3 col-6 mr-auto">
           <a id="segundo" onclick="info2()">
-            <div class="card" >
-              <div data-target= "#carouselExampleControls" data-slide-to="1" >
-                <img class="card-img-top" src="../assets/images/editPS04.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Clint Eastwood</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "1" class="personaA">
+              <img class="img-fluid" src="../assets/images/editPS04.jpg" alt="">
+              <h3 class="newH3">Clint Eastwood</h3>
             </div>
           </a>
-        </div><!--fin col img #2-->
-
-        <div class="col-6 col-md-3">
+        </div>
+        <div class="col-md-3 col-6">
           <a id="tercero" onclick="info3()">
-            <div class="card" >
-              <div data-target= "#carouselExampleControls" data-slide-to="2" >
-                <img class="card-img-top" src="../assets/images/editPS01.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Dayanna Jiménez</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "2" class="personaA">
+              <img class="img-fluid" src="../assets/images/editPS01.jpg" alt="">
+              <h3 class="newH3">Dayanna Jiménez</h3>
             </div>
           </a>
-        </div><!--fin col img #3-->
-
-        <div class="col-6 col-md-3">
+        </div>
+        <div class="col-md-3 col-6">
           <a id="cuarto" onclick="info4()">
-            <div class="card" >
-              <div data-target= "#carouselExampleControls" data-slide-to="3" >
-                <img class="card-img-top" src="../assets/images/editPS02.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Sebastián Brenes</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "3" class="personaA">
+              <img class="img-fluid" src="../assets/images/editPS02.jpg" alt="">
+              <h3 class="newH3">Sebastián Brenes</h3>
             </div>
           </a>
-        </div><!--fin col img #4-->
-
-      </div> <!--Fin del row-->
-      <br>
-
-
+        </div>
+  	  </div> <!--Fin del row-->
       <!--Segunda linea-->
       <div class="row justify-content-sm-center">
-
-        <div class="col-6 col-md-3">
+        <div class="col-md-3 col-6">
           <a id="quinto" onclick="info5()">
-            <div class="card" >
-              <div data-target= "#carouselExampleControls" data-slide-to="4" >
-                <img class="card-img-top" src="../assets/images/editPS05.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Enrique Soto</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "4" class="personaA">
+              <img class="img-fluid" src="../assets/images/editPS05.jpg" alt="">
+              <h3 class="newH3">Enrique Soto V.</h3>
             </div>
           </a>
-        </div><!--fin col img #5-->
-
-        <div class="col-6 col-md-3">
+        </div>
+        <div class="col-md-3 col-6 mr-auto">
           <a id="sexto" onclick="info6()">
-            <div class="card" >
-              <div data-target= "#carouselExampleControls" data-slide-to="5" >
-                <img class="card-img-top" src="../assets/images/editPS04.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Andy Vásquez</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "5" class="personaA">
+              <img class="img-fluid" src="../assets/images/editPS04.jpg" alt="">
+              <h3 class="newH3">Andy Vásquez</h3>
             </div>
           </a>
-        </div><!--fin col img #6-->
-
-        <div class="col-6 col-md-3">
+        </div>
+        <div class="col-md-3 col-6">
           <a id="septimo" onclick="info7()">
-            <div class="card" >
-              <div data-target= "#carouselExampleControls" data-slide-to="6" >
-                <img class="card-img-top" src="../assets/images/editPS06.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Lucas Mora C.</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "6" class="personaA">
+              <img class="img-fluid" src="../assets/images/editPS06.jpg" alt="">
+              <h3 class="newH3">Lucas Mora C.</h3>
             </div>
           </a>
-        </div><!--fin col img #7-->
-
-        <div class="col-6 col-md-3">
+        </div>
+        <div class="col-md-3 col-6">
           <a id="octavo" onclick="info8()">
-            <div class="card" >
-              <div data-target= "#carouselExampleControls" data-slide-to="7" >
-                <img class="card-img-top" src="../assets/images/editPS06.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Josefina Torres</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "7" class="personaA">
+              <img class="img-fluid" src="../assets/images/editPS06.jpg" alt="">
+              <h3 class="newH3">Josefina Torres</h3>
             </div>
           </a>
-        </div><!--fin col img #8-->
+        </div>
       </div><!--fin del row-->
-      <br>
-
       <!--Tercera linea-->
       <div class="row justify-content-center">
-        <div class="col-6 col-md-3">
+        <div class="col-md-3 col-6">
           <a id="noveno" onclick="info9()">
-            <div class="card" >
-              <div data-target= "#carouselExampleControls" data-slide-to="8" >
-                <img class="card-img-top" src="../assets/images/editPS01.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
-                <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Mónica Rodríguez S.</h5>
-                </div>
-              </div>
+            <div data-target= "#carouselExampleControls" data-slide-to= "8" class="personaA">
+              <img class="img-fluid" src="../assets/images/editPS01.jpg" alt="">
+              <h3 class="newH3">Mónica Rodríguez S.</h3>
             </div>
           </a>
-        </div><!--fin col img #8-->
+        </div>
       </div><!--fin del row-->
-
-
     </div><!--fin del container fluid-->
   </section>
 
   <!--Section con la información de los invitados-->
-  <section class="newSection">
+	<section class="newSection">
     <div class="row align-items-center">
       <div class="col-sm-6 col-md-6 col-lg-6 marginCol6">
         <div id= "carouselExampleSlidesOnly" class= "carousel  contenedor-Slide" data-interval= "0">
-          <div id= "carouselExampleControls" class= "carousel" data-interval= "0" >
+          <div id= "carouselExampleControls" class= "carousel " data-interval= "0" >
             <div class= "carousel-inner">
               <!--Primera linea-->
               <div class= "carousel-item active" data-interval="0">
@@ -295,18 +242,18 @@
   </section>
 
   <footer>
-    <div class="container-fluid">
-     <div class="row">
-      <div class="col-sm-12">
-       <?php @include('../includes/footer.php'); ?>
-     </div>
-   </div>
- </footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<?php @include('../includes/footer.php'); ?>
+				</div>
+			</div>
+	</footer>
 
- <script  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
- <script  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
- <script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
- <script src="../js/conferen_capac.js"></script>
+	<script  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="../js/conferen_capac.js"></script>
 	<!-- <script>
 	//script usado para cambiar el color de fondo del navbar
 	$(window).scroll(function(){
