@@ -3,7 +3,7 @@
       $(window).scroll(function(){
         if (screen.width > 768) {
           console.log('entró pc');
-          if ($(this).scrollTop() > 625) {
+          if ($(this).scrollTop() > 320) {
             $('nav').addClass('rosa');
           } else {
             $('nav').removeClass('rosa');
@@ -33,5 +33,3 @@
                  
             }
 
-
-    
