@@ -26,6 +26,11 @@
     </ul>
   </div>
 </nav> -->
+<<<<<<< HEAD
+=======
+
+ 
+>>>>>>> parent of 65eddd8... menu 2
  <nav id="mynav" class="navbar navbar-expand-md navbar-dark  fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
