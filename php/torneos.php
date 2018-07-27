@@ -13,12 +13,7 @@
   <!-- inicio header -->
   <header>
     <!-- navbar -->
-    <!-- <div class="container-fluid">
-    	<div class="row">
-       <div class="col-sm-12"> -->
-         <!-- include  -->
-			<!-- </div>
-      </div> -->
+ <?php @include('../includes/menu2.php'); ?>
       <!-- navbar -->
 
       <!-- Imagen del header -->
@@ -43,7 +38,7 @@
  
 
  <!-- Sección de los campeones -->
- <section>
+ <section class="sectionTorneos">
   <!-- header seccion campeones(icono y texto) -->
   <div class="container-fluid">
     <div class="row justify-content-center justify-content-md-start">
@@ -96,7 +91,7 @@
 <!-- fin Gandor de los torneos -->
 
 
-<section>
+<section class="sectionTorneos">
   <div class="container-fluid">
     <!-- Selector de torneo -->
     <div class="row">
@@ -117,7 +112,7 @@
   <div class="TournamentBox">  
     <!-- Tournament lol-->
     <div class="op1 bracket ">
-      <section class="round quarterfinals">
+      <section class="round quarterfinals sectionTorneos">
         <div class="winners">
           <div class="matchups">
             <div class="matchup">
@@ -159,7 +154,7 @@
           </div>
         </div>
       </section>
-      <section class="round semifinals">
+      <section class="round semifinals sectionTorneos">
         <div class="winners">
           <div class="matchups">
             <div class="matchup">
@@ -181,7 +176,7 @@
           </div>
         </div>
       </section>
-      <section class="round finals">
+      <section class="round finals sectionTorneos">
         <div class="winners">
           <div class="matchups">
             <div class="matchup">
@@ -197,7 +192,7 @@
     <!-- tournament lol-->
     <!-- tournament Smash -->
     <div class="op2 bracket">
-      <section class="round quarterfinals">
+      <section class="round quarterfinals sectionTorneos">
         <div class="winners">
           <div class="matchups">
             <div class="matchup">
@@ -239,7 +234,7 @@
           </div>
         </div>
       </section>
-      <section class="round semifinals">
+      <section class="round semifinals sectionTorneos">
         <div class="winners">
           <div class="matchups">
             <div class="matchup">
@@ -261,7 +256,7 @@
           </div>
         </div>
       </section>
-      <section class="round finals">
+      <section class="round finals sectionTorneos">
         <div class="winners">
           <div class="matchups">
             <div class="matchup">
@@ -290,6 +285,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../assets/js/scriptsNav2.js"></script>
 <script>
 
 
