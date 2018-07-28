@@ -10,29 +10,31 @@ p{
     font-size: calc(16px + 0.2vw);
 }
 
+
+
 h1{
-    font-size: calc(40px + 1.5vw);
+    font-size: calc(24px + 1.5vw);
 }
 
-h2{
-    font-size: calc(35px + 1.5vw);
-}
+// h2{
+//     font-size: calc(20px + 1.5vw);
+// }
 
-h3{
-    font-size: calc(30px + 1.5vw);
-}
+// h3{
+//     font-size: calc(16px + 1.5vw);
+// }
 
-h4{
-    font-size: calc(25px + 1.5vw);
-}
+// h4{
+//     font-size: calc(12px + 1.5vw);
+// }
 
-h5{
-    font-size: calc(20px + 1.5vw);
-}
+// h5{
+//     font-size: calc(8px + 1.5vw);
+// }
 
-h6{
-    font-size: calc(15px + 1.5vw);
-}
+// h6{
+//     font-size: calc(4px + 1.5vw);
+// }
 
 // $phonesmall: '(min-width: 0px) and (max-width: 320px)';
 // $phone : '(min-width: 321px) and (max-width: 360px)';
@@ -51,3 +53,10 @@ h6{
 //     height: auto;
 //   }
 // }
+
+
+.box{
+    height:150px;
+    width:150px;
+    background:red;
+}

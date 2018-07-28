@@ -12,43 +12,26 @@
   <title>Expomedia | Invitados</title>
 </head>
 
-<body class="BodyBg">
-  <header>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12">
-          <?php @include('../includes/menu2.php'); ?>
-        </div>
-      </div>
-      <div class="row">
-        <div class="imgHeader col-sm-12">
-          <!-- <img src="../assets/images/torneoHeader.png" alt="Ganadores-pasados-del-torneo-de-League-of-Legends"> -->
-        </div>
-      </div>
-    </div>
-  </header>
+<body>
 
-  <div id="contenido-conferencistasCapacitadores">
-
-  <div class="espacios"> 
-    <!-- <h1 class="infoCenterVertical">CONFERENCISTAS Y CAPACITADORES</h1>   -->
-  </div> 
+<div class="container">
+<br>
+<div class="row">
+    <div class="col-12">
+      <div class="box  mx-auto"><div>  
+    </div> 
+</div>
+<br>
 
 
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <p class="">Fluid jumbotron</p>
-    <h1 class="">Fluid jumbotron</h1>
-    <h2 class="">Fluid jumbotron</h2>
-    <h3 class="">Fluid jumbotron</h3>
-    <h4 class="">Fluid jumbotron</h4>
-    <h5 class="">Fluid jumbotron</h5>
-    <h6 class="">Fluid jumbotron</h6>
-  </div>
+<div class="row">
+    <div class="col-12">
+      <div class="box  mx-auto"><div>  
+    </div> 
 </div>
 
-  </div>
-  <!--Fin de contenidoPagina-->
+
+</div>
 
 
 
