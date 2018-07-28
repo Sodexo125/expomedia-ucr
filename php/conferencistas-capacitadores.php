@@ -46,7 +46,7 @@
         <div class="row justify-content-sm-center">
           <div class="col-6 col-md-3">
             <a id="primero" onclick="info1()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="0">
                   <img class="card-img-top" src="../assets/images/editPS03.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -60,7 +60,7 @@
 
           <div class="col-6 col-md-3">
             <a id="segundo" onclick="info2()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="1">
                   <img class="card-img-top" src="../assets/images/editPS04.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -74,7 +74,7 @@
 
           <div class="col-6 col-md-3">
             <a id="tercero" onclick="info3()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="2">
                   <img class="card-img-top" src="../assets/images/editPS01.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -88,7 +88,7 @@
 
           <div class="col-6 col-md-3">
             <a id="cuarto" onclick="info4()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="3">
                   <img class="card-img-top" src="../assets/images/editPS02.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -109,7 +109,7 @@
 
           <div class="col-6 col-md-3">
             <a id="quinto" onclick="info5()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="4">
                   <img class="card-img-top" src="../assets/images/editPS05.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -123,7 +123,7 @@
 
           <div class="col-6 col-md-3">
             <a id="sexto" onclick="info6()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="5">
                   <img class="card-img-top" src="../assets/images/editPS04.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -137,7 +137,7 @@
 
           <div class="col-6 col-md-3">
             <a id="septimo" onclick="info7()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="6">
                   <img class="card-img-top" src="../assets/images/editPS06.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -151,7 +151,7 @@
 
           <div class="col-6 col-md-3">
             <a id="octavo" onclick="info8()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="7">
                   <img class="card-img-top" src="../assets/images/editPS06.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -170,7 +170,7 @@
         <div class="row justify-content-center">
           <div class="col-6 col-md-3">
             <a id="noveno" onclick="info9()">
-              <div class="card">
+              <div class="card card-padding-bottom">
                 <div data-target="#carouselExampleControls" data-slide-to="8">
                   <img class="card-img-top" src="../assets/images/editPS01.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                   <div class="card-body card-footer text-muted">
@@ -195,26 +195,7 @@
 
 
     <!--  -->
-    <div class="container">
-      <br>
-
-      <div class="row">
-          <div class="col-12">
-            <div class="mx-auto">
-            
-            <div>  
-          </div> 
-      </div>
-     
-      <br>
-
-      <div class="row">
-          <div class="col-12">
-            <div class="box  mx-auto"><div>  
-          </div> 
-      </div>
-    </div>
-
+  
 
     <!--  -->
     <section class="newSection">
@@ -225,41 +206,40 @@
             <div id="carouselExampleControls" class="carousel" data-interval="0">
               <div class="carousel-inner">
                 <!--Primera linea-->
-                <div class="carousel-item active" data-interval="0">
-                  <img class="d-block w-100" src="../assets/images/editPS03.jpg" alt="First slide">
+                <div class="carousel-item card active" data-interval="0">
+                  <img class="d-block box" src="../assets/images/editPS03.jpg" alt="First slide">
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="../assets/images/editPS04.jpg" alt="Second slide">
+                <div class="carousel-item card">
+                  <img class="d-block box" src="../assets/images/editPS04.jpg" alt="Second slide">
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="../assets/images/editPS01.jpg" alt="Third slide">
+                <div class="carousel-item card">
+                  <img class="d-block box" src="../assets/images/editPS01.jpg" alt="Third slide">
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="../assets/images/editPS02.jpg" alt="First slide">
+                <div class="carousel-item card">
+                  <img class="d-block box" src="../assets/images/editPS02.jpg" alt="First slide">
                 </div>
                 <!--Segunda linea-->
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="../assets/images/editPS05.jpg" alt="Second slide">
+                <div class="carousel-item card">
+                  <img class="d-block box" src="../assets/images/editPS05.jpg" alt="Second slide">
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="../assets/images/editPS04.jpg" alt="Third slide">
+                <div class="carousel-item card">
+                  <img class="d-block box" src="../assets/images/editPS04.jpg" alt="Third slide">
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="../assets/images/editPS06.jpg" alt="First slide">
+                <div class="carousel-item card">
+                  <img class="d-block box" src="../assets/images/editPS06.jpg" alt="First slide">
                 </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="../assets/images/editPS06.jpg" alt="eighth slide">
+                <div class="carousel-item card">
+                  <img class="d-block box" src="../assets/images/editPS06.jpg" alt="eighth slide">
                 </div>
                 <!--Tercera linea-->
-                <div class="carousel-item">
-                  <img class="d-block w-100" src="../assets/images/editPS01.jpg" alt="Third slide">
+                <div class="carousel-item card">
+                  <img class="d-block box" src="../assets/images/editPS01.jpg" alt="Third slide">
                 </div>
               </div>
             </div>
           </div>
           <!--carousel-->
         </div>
-        
         <!--fin del col-6-->
         <div class="col-sm-6 col-md-6 col-lg-6">
           <div class="contenedor-Txt">
