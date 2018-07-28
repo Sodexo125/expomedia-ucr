@@ -11,10 +11,7 @@ document.addEventListener('DOMContentLoaded',function(){
   var numero;
 
   // Funcion que muestra mas actividades a la misma hora
-  function mostrarmas(actual,nombre){
-    $("."+actual+"").hide();
-    $("."+nombre+"").toggle();
-  }
+
   // Funcion que muestra mas actividades a la misma hora
 
   // Mostrar Cronograma al desplazar el slider
