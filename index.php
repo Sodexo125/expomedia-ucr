@@ -21,14 +21,14 @@
       <h1>EXPOMEDIA</h1>
     </div> 
   </header>
-<main class="container">
-  <div class="row justify-content-lg-center justify-content-center actividades">
-    <div class=" col-12 col-lg-12 text-center"><h1>ACTIVIDADES</h1></div>
+<main class="container contenedoractividades">
+  <div class="row justify-content-lg-center justify-content-center">
+    <div class=" col-12 col-lg-12 text-center actividades"><h1>ACTIVIDADES</h1></div>
   </div>
     <section class="row justify-content-lg-center">
-      <div class="col-lg-12 col-12 text-center">
-         <p class="textoIndex"> La carrera de Informática y Tecnología Multimedia les da la bienvenida a la Expomedia 2018. 
-      Te invitamos a que asistas en las charlas y talleres impartidos por expertos invitados en su área de trabajo  y estudiantes de la universidad como fotografía, diseño de páginas web, software libre, big data, creación de videojuegos, modelado en 3D entre otros temas. </p>
+      <div class="col-lg-12 col-12 ">
+         <p class="textoIndex text-center"> La carrera de Informática y Tecnología Multimedia les da la bienvenida a la Expomedia 2018. 
+      Te invitamos a que asistas en las charlas y talleres impartidos por expertos invitados en su área de trabajo  y estudiantes de la universidad como fotografía, diseño de páginas web, software libre, big data, creación de videojuegos, modelado en 3D entre otros. </p>
       </div>
      
     </section>

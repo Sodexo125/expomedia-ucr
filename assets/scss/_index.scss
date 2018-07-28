@@ -2,6 +2,18 @@
     margin-top: 7%;
     color:white;
     font-family:'BitsumisRegular';
+        @include respond-to($phone){
+            h1{
+                font-size: 2rem!important; 
+            }
+     
+    }
+}
+.contenedoractividades{
+    @include respond-to($phone){
+          margin-top:18px;
+     
+    }
 }
 #bgIndex{
 background: #1c1c1c;
@@ -11,14 +23,32 @@ background: #1c1c1c;
 	color:white;
     font-family:'MontserratRegular';
         padding-bottom: 100px;
+        @include respond-to($phone){
+      font-size: 1rem;
+      text-align:justify!important;
+      // margin-top: 20px;
+    }
+
 }
 .cards{
 	padding-top: 30px;
+      @include respond-to($phone){
+          margin-top: -508px;
+     
+    }
 }
 .espaciado{
 	margin-top: 10px;
 }
-  
+  #slideshowactividades{
+     @include respond-to($phone){
+        margin-top: 72px;
+     
+    }
+  }
+
+   
+        
 
 section.range-slider {
 	margin-top: 100px;
@@ -26,20 +56,33 @@ section.range-slider {
     width: 200px;
     height: 5px;
     text-align: center;
+     @include respond-to($phone){
+          margin-top: 28px;
+     
+    }
 
 }
+
+
 
 section.range-slider input {
     pointer-events: none;
     position: absolute;
     overflow: hidden;
-    left: 0;
+    left: -18px;
     top: 15px;
     width: 200px;
     outline: none;
    height: 6px;
     margin: 0;
     padding: 0;
+    margin-left: -3px;
+      @include respond-to($phone){
+          left:37px;
+           height: 15px;
+
+     
+    }
 
 }
 
@@ -57,11 +100,16 @@ section.range-slider input::-webkit-slider-thumb {
 
 .rangeValues{
 	    padding-top: 35px;
-    margin-left: 44px;
+    // margin-left: 44px;
     position: absolute;
     /* margin-bottom: 107px; */
     padding-bottom: 46px;
     color: #141414;
+      @include respond-to($phone){
+          margin-left: 53px;
+     
+    }
+   
 }
 .cronogramatitulo{
 	background:#141414;
@@ -75,6 +123,11 @@ section.range-slider input::-webkit-slider-thumb {
 	 font-family:'BitsumisRegular';
 	 color: white;
 	 margin-top:39px;
+
+     @include respond-to($phone){
+           margin-top:31px;
+     
+    }
 }
 // .contCrono{
 // 	margin-top: 100px;
@@ -82,6 +135,11 @@ section.range-slider input::-webkit-slider-thumb {
 .bgSlider{
 background:white;
     height: 476px;
+        @include respond-to($phone){
+        
+          height: 573px;
+     
+    }
 }
 .vacio{
 	background: white;
@@ -90,6 +148,10 @@ background:white;
 	margin-top: 39px;
 	 font-family:'BitsumisRegular';
 	color: #1c1c1c;
+      @include respond-to($phone){
+           margin-top:7px;
+     
+    }
 }
 
 .slider {
