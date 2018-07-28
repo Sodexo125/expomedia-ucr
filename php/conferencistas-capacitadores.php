@@ -20,22 +20,22 @@
           <?php @include('../includes/menu2.php'); ?>
         </div>
       </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="imgHeader col-sm-12">
           <img src="../assets/images/torneoHeader.png" alt="Ganadores-pasados-del-torneo-de-League-of-Legends">
         </div>
-      </div>
+      </div> -->
     </div>
   </header>
   
   <br>
   <div id="contenido-conferencistasCapacitadores">
 
-    <div class="jumbotron jumbotron-fluid">
+    <!-- <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4 text-center">CONFERENCISTAS Y CAPACITADORES</h1>
+        <h5 class="display-4 text-center">CONFERENCISTAS Y CAPACITADORES</h5>
       </div>
-    </div>
+    </div> -->
 
     <!--Section de los invitados con imagenes-->
     <section class="newSection">
@@ -190,8 +190,36 @@
     </section>
 
     <!--Section con la información de los invitados-->
+
+    
+
+
+    <!--  -->
+    <div class="container">
+      <br>
+
+      <div class="row">
+          <div class="col-12">
+            <div class="mx-auto">
+            
+            <div>  
+          </div> 
+      </div>
+     
+      <br>
+
+      <div class="row">
+          <div class="col-12">
+            <div class="box  mx-auto"><div>  
+          </div> 
+      </div>
+    </div>
+
+
+    <!--  -->
     <section class="newSection">
       <div class="row align-items-center">
+        
         <div class="col-sm-6 col-md-6 col-lg-6 marginCol6">
           <div id="carouselExampleSlidesOnly" class="carousel  contenedor-Slide" data-interval="0">
             <div id="carouselExampleControls" class="carousel" data-interval="0">
@@ -231,6 +259,7 @@
           </div>
           <!--carousel-->
         </div>
+        
         <!--fin del col-6-->
         <div class="col-sm-6 col-md-6 col-lg-6">
           <div class="contenedor-Txt">
@@ -347,16 +376,11 @@
 
     </section>
 
-    <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12">
-            <?php @include('../includes/footer.php'); ?>
-          </div>
-        </div>
-    </footer>
+     <footer>
+      <?php @include('../includes/footer.php'); ?>
+    </footer> 
 
-    </div><!--Fin de contenidoPagina-->
+    </div> <!--Fin de contenidoPagina-->
 
 
 
