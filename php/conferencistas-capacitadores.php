@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="imgHeader col-sm-12">
+        <div id="imagen-header-conferencistasCapacitadores" class="imgHeader col-sm-12">
           <img src="../assets/images/torneoHeader.png" alt="Ganadores-pasados-del-torneo-de-League-of-Legends">
         </div>
       </div>
@@ -39,8 +39,10 @@
         <h1 class="text-center">CONFERENCISTAS Y CAPACITADORES</h1>
       </div>
     </div>
+
+
     <section class="">
-      <div class="row align-items-center ">
+      <div class="row align-items-center margin-padding-0">
 
         <div class="col-12 col-md-5 col-lg-6 card-padding-bottom">
           <div id="carouselExampleSlidesOnly" class="carousel  contenedor-Slide" data-interval="0">
@@ -84,7 +86,7 @@
 
 
         <div class="col-12 col-md-7 col-lg-5 card-padding-bottom">
-          <div class="padding-box">
+          <div class="">
 
            <div id="texto1" class="card bg-light mb-3 align-self-start" style="max-width: 100%;">
             <div class="card-header "><h2>John Wayne - Conferencista</h2></div>
@@ -205,7 +207,9 @@
         </div>
       </div>
 
-      <div class="col-0 col-md-0 col-lg-1 bg-blue"></div>>
+      <div class="col-0 col-md-0 col-lg-1">
+        <!-- Para responsive lg -->
+      </div>
     </div>
     <!--fin del row-->
   </section>
