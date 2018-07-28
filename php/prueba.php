@@ -186,8 +186,8 @@
 <section>
   
  <div class="snip1252 hover">
-                    <img class="d-block rounded mx-auto " src="../assets/images/editPS03.jpg" alt="First slide">
-                  </div>
+  <img class="d-block rounded mx-auto " src="../assets/images/editPS03.jpg" alt="First slide">
+</div>
 
 </section>
 

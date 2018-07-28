@@ -30,6 +30,7 @@
 
            // añadir clase si no existía; eliminarla si ya existía
            document.getElementById("contenido-conferencistasCapacitadores").classList.toggle('efectoBluir');
+          document.getElementById("imagen-header-conferencistasCapacitadores").classList.toggle('efectoBluir');
  
 
 

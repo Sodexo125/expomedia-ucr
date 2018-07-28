@@ -32,6 +32,13 @@ header{
   height: 100%;
 }
 
+.margin-padding-0{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-lef: 0px;
+  padding-right: 0px;
+}
+
 .top-nav{
     padding-top: 0px;
 }
@@ -53,6 +60,22 @@ header{
 }
 .nav-transparent{
   background: green;
+}
+
+// imagen del header 
+header{
+  .imgHeader {
+    margin:0;
+    padding:0;
+    img{
+    width:100%;
+    height:160px;
+    @include respond-to($large-desktop){
+      width:100%;
+      height:auto;
+      }
+    }
+  }
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
