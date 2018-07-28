@@ -23,13 +23,16 @@
     });
      // Funcion de cambiar el color del nav al hacer scroll hacia abajo
 
-        $('#boton-menu').click(cambiarClaseVideo); //verificamos el elemento btn menu y llamamos una funcion
+     $('#boton-menu').click(cambiarClaseVideo); //verificamos el elemento btn menu y llamamos una funcion
+     
+     function cambiarClaseVideo() {
+      
 
-            function cambiarClaseVideo() {
-                  // añadir clase si no existía; eliminarla si ya existía
-                  document.getElementById("videoITM").classList.toggle('efectoBluirVideo');
-                  document.getElementById("contenido").classList.toggle('efectoBluirVideo');
-                  document.getElementById("titulo-expomedia").classList.toggle('efectoBluirVideo');
-                 
-            }
+           // añadir clase si no existía; eliminarla si ya existía
+           document.getElementById("contenido-conferencistasCapacitadores").classList.toggle('efectoBluir');
+ 
 
+
+          
+          
+     }

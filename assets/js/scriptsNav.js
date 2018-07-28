@@ -24,12 +24,17 @@
      // Funcion de cambiar el color del nav al hacer scroll hacia abajo
 
         $('#boton-menu').click(cambiarClaseVideo); //verificamos el elemento btn menu y llamamos una funcion
-
+     
             function cambiarClaseVideo() {
+             
+
                   // añadir clase si no existía; eliminarla si ya existía
                   document.getElementById("videoITM").classList.toggle('efectoBluirVideo');
-                  document.getElementById("contenido").classList.toggle('efectoBluirVideo');
-                  document.getElementById("titulo-expomedia").classList.toggle('efectoBluirVideo');
+                  // document.getElementById("contenido").classList.toggle('efectoBluirVideo');
+                  // document.getElementById("titulo-expomedia").classList.toggle('efectoBluirVideo');
+
+
+                 
                  
             }
 
