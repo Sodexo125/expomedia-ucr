@@ -47,13 +47,20 @@
 }
 /*Estilo para cambiar las imágenes en el carousel*/
 .contenedor-Slide{
-	width: 65%;
-  height: 100%;
-  float: left;
+	// width: 65%;
+ //  height: 100%;
+ //  float: left;
+
+    width: 60%;
+    position: relative;
+    margin: auto;
+
   img{
-  	width: 80%!important;
-    margin-left: 20%;
-		margin-bottom: 7%;
+    position:relative;
+  	width: 100%!important;
+    margin:auto;
+  //   margin-left: 20%;
+		// margin-bottom: 7%;
   }
 }
 
