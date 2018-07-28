@@ -1,3 +1,10 @@
+.card{
+  margin-bottom: 20px;
+	@include respond-to($large-desktop){
+    margin-bottom: 40px;
+  }
+}
+
 /*Estilo para las imágenes*/
 .personaA{
 	width: 70%;
