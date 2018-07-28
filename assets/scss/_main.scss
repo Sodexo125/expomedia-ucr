@@ -77,6 +77,11 @@ ul{
   transition: all 0.1s ease;
 }
 
+.efectoBluir{
+  filter: blur(12px);
+  transition: all 0.1s ease;
+}
+
 
 @media (max-width: 768px) {
   .navbar-collapse {
