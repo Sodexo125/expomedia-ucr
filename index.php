@@ -22,11 +22,11 @@
     </div> 
   </header>
 <main class="container">
-  <div class="row justify-content-lg-center actividades">
-    <div class="col-lg-12 text-center"><h1>ACTIVIDADES</h1></div>
+  <div class="row justify-content-lg-center justify-content-center actividades">
+    <div class=" col-12 col-lg-12 text-center"><h1>ACTIVIDADES</h1></div>
   </div>
     <section class="row justify-content-lg-center">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-12 col-12 text-center">
          <p class="textoIndex"> La carrera de Informática y Tecnología Multimedia les da la bienvenida a la Expomedia 2018. 
       Te invitamos a que asistas en las charlas y talleres impartidos por expertos invitados en su área de trabajo  y estudiantes de la universidad como fotografía, diseño de páginas web, software libre, big data, creación de videojuegos, modelado en 3D entre otros temas. </p>
       </div>
@@ -35,23 +35,29 @@
 </main>
 <!-- Seccion completa del cronograma -->
 <div class="container-fluid contCrono">
-    <div class="row justify-content-lg-center">
-      <div class="col-sm-3 col-lg-3 cronogramatitulo text-center">
+    <div class="row justify-content-lg-center justify-content-center">
+      <div class="col-12 col-lg-3 cronogramatitulo text-center">
         <h3>CRONOGRAMA</h3>
       </div>
-      <div class="col-sm-9 col-lg-9 vacio">
+      <div class="col-12 col-lg-9 vacio">
         <h3>VIERNES 24 DE AGOSTO</h3>
       </div>
       
     </div>
-    <div class="row cronogramabarra">
-      <div class="col-sm-3 bgSlider">
+    <div class="row cronogramabarra justify-content-center">
+      <div class="col-12 col-lg-3 bgSlider">
         <!-- Input Range -->
-        <section class="range-slider">
-          <div class="rangeValues"></div>
+        <div class="row justify-content-center">
+          <!-- <div class="col-9 col-sm-6 no-gutters"> -->
+             <section class="range-slider col-9 col-sm-6 no-gutters">
+          <p class="rangeValues"></p>
+
           <input id="inputslide1" class="slider" value="7" min="7" max="15" step="1" type="range" onchange="cronograma();">
           <input id="inputslide2" class="slider" value="8" min="7" max="16" step="1" type="range">
         </section>
+          <!-- </div> -->
+        </div>
+       
         <!-- Input Range -->
       </div>
 
@@ -64,6 +70,59 @@
             <div class="card-body">
               <h5 class="card-title">7:30-8:00</h5>
               <p class="card-text">Primeros</p>
+
+            </div>
+          </div>
+            </div>
+            <!-- Cada actividad -->
+
+             <!-- Cada actividad -->
+            <div class="col-lg-12">
+              <div class="card w-85 espaciado">
+            <div class="card-body">
+              <h5 class="card-title">7:30-8:00</h5>
+              <p class="card-text">Primeros</p>
+
+            </div>
+          </div>
+            </div>
+            <!-- Cada actividad -->
+
+             <!-- Cada actividad -->
+            <div class="col-lg-12">
+              <div class="card w-85 espaciado">
+            <div class="card-body">
+              <h5 class="card-title">7:30-8:00</h5>
+              <p class="card-text">Primeros</p>
+
+            </div>
+          </div>
+            </div>
+            <!-- Cada actividad -->
+
+             <!-- Cada actividad -->
+            <div class="col-lg-12">
+              <div class="card w-85 espaciado">
+            <div class="card-body">
+              <h5 class="card-title">7:30-8:00</h5>
+              <p class="card-text">Primeros</p>
+
+            </div>
+          </div>
+            </div>
+            <!-- Cada actividad -->
+        </div>
+
+        <!-- Fin de los primeros 4 a mostrar-->
+
+         <!-- Primeros 4 a mostrar -->
+        <div id="Activo8">
+          <!-- Cada actividad -->
+            <div class="col-lg-12">
+              <div class="card w-85 espaciado">
+            <div class="card-body">
+              <h5 class="card-title">7:30-8:00</h5>
+              <p class="card-text">Segundos</p>
 
             </div>
           </div>

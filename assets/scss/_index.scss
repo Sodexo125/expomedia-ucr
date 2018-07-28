@@ -50,6 +50,10 @@ section.range-slider input::-webkit-slider-thumb {
     z-index: 1;
     outline: 0;
 }
+#Activo8{
+    display:none;
+}
+
 
 .rangeValues{
 	    padding-top: 35px;
@@ -116,6 +120,7 @@ background:white;
 }
 #inputslide2::-webkit-slider-thumb {
     width: 0; /* Set a specific slider handle width */
+    background:transparent!important;
 
 }
 .carousel-indicators li{
