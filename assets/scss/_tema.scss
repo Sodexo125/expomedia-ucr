@@ -4,7 +4,6 @@ $color-black: #000000;
 $color-dark: #333333;
 $color-gray:#ccc;
 $color-cian:#64ffda;
-
 $color-rose:rgba(247, 111, 215, 0.9);
 
 p{
@@ -34,3 +33,21 @@ h5{
 h6{
     font-size: calc(15px + 1.5vw);
 }
+
+// $phonesmall: '(min-width: 0px) and (max-width: 320px)';
+// $phone : '(min-width: 321px) and (max-width: 360px)';
+// $phonelarge: '(min-width: 361px) and (max-width: 411px)';
+// $tablet-portrait: '(max-width: 767px)';
+// $tablet-landscape: '(min-width: 768px) and (max-width: 960px)';
+// $tablet-large: '(min-device-width: 1024px) and (max-device-height: 1366px)';
+// $large-desktop: '(min-width: 1140px)';
+
+//ejemplo...
+// .logo {
+//   width: 50px;
+//   height: auto;
+//   @include respond-to($large-desktop) {
+//     width: 60px;
+//     height: auto;
+//   }
+// }
