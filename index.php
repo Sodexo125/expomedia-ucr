@@ -21,6 +21,7 @@
       <h1>EXPOMEDIA</h1>
     </div> 
   </header>
+
 <main class="container">
   <div class="row justify-content-lg-center justify-content-center actividades">
     <div class=" col-12 col-lg-12 text-center"><h1>ACTIVIDADES</h1></div>
@@ -34,7 +35,7 @@
     </section>
 </main>
 <!-- Seccion completa del cronograma -->
-<div class="container-fluid contCrono">
+<div id="contenido-pagina" class="container-fluid contCrono">
     <div class="row justify-content-lg-center justify-content-center">
       <div class="col-12 col-lg-3 cronogramatitulo text-center">
         <h3>CRONOGRAMA</h3>
