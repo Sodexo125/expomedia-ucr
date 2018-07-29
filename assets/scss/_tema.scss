@@ -16,35 +16,44 @@ $color-rose:rgba(247, 111, 215, 0.9);
 // 24px = 1.5rem
 // 30px = 1.875rem
 // 32px = 2rem
+// 
+
+a{
+    // font-size: 0.75rem;
+    font-family: 'MontserratRegular';
+}
+
 p{
-    font-size: 0.75rem;
+    // font-size: 0.75rem;
+    font-family: 'MontserratRegular';
 }
 
 
-
-h1{
-    font-size: 2rem;
+h1,h5{
+    // font-size: 2rem;
+    font-family: 'BitsumisRegular';
 }
 
 h2{
-    font-size: 1.875rem;
+    // font-size: 1.875rem;
+     font-family: 'MontserratRegular';
 }
 
-h3{
-    font-size: 1.5rem;
-}
+// h3{
+//     font-size: 1.5rem;
+// }
 
-h4{
-    font-size: 1.25rem;
-}
+// h4{
+//     font-size: 1.25rem;
+// }
 
-h5{
-    font-size: 1.125rem;
-}
+// h5{
+//     font-size: 1.125rem;
+// }
 
-h6{
-    font-size: 1rem ;
-}
+// h6{
+//     font-size: 1rem ;
+// }
 
 // $phonesmall: '(min-width: 0px) and (max-width: 320px)';
 // $phone : '(min-width: 321px) and (max-width: 360px)';
