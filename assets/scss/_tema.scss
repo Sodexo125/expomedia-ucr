@@ -6,7 +6,6 @@ $color-gray:#ccc;
 $color-cian:#64ffda;
 $color-rose:rgba(247, 111, 215, 0.9);
 
-
 // 10px = 0.625rem
 // 12px = 0.75rem
 // 14px = 0.875rem
@@ -17,6 +16,34 @@ $color-rose:rgba(247, 111, 215, 0.9);
 // 30px = 1.875rem
 // 32px = 2rem
 // 
+
+* {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.card-people{
+  color:#fff;   
+  &:hover{
+    color: #ffeb3b !important; 
+    font-size: 20px; 
+}
+}
+
+.margin-20{
+    padding-top: 20px;
+    padding-button: 20px;
+}
+
+.card-padding-bottom{
+  margin-bottom: 20px;
+    @include respond-to($large-desktop){
+    margin-bottom: 40px;
+  }
+}
+
 
 a{
     // font-size: 0.75rem;
@@ -36,42 +63,8 @@ h1,h5{
 
 h2{
     // font-size: 1.875rem;
-     font-family: 'MontserratRegular';
+    font-family: 'MontserratRegular';
 }
-
-// h3{
-//     font-size: 1.5rem;
-// }
-
-// h4{
-//     font-size: 1.25rem;
-// }
-
-// h5{
-//     font-size: 1.125rem;
-// }
-
-// h6{
-//     font-size: 1rem ;
-// }
-
-// $phonesmall: '(min-width: 0px) and (max-width: 320px)';
-// $phone : '(min-width: 321px) and (max-width: 360px)';
-// $phonelarge: '(min-width: 361px) and (max-width: 411px)';
-// $tablet-portrait: '(max-width: 767px)';
-// $tablet-landscape: '(min-width: 768px) and (max-width: 960px)';
-// $tablet-large: '(min-device-width: 1024px) and (max-device-height: 1366px)';
-// $large-desktop: '(min-width: 1140px)';
-
-//ejemplo...
-// .logo {
-//   width: 50px;
-//   height: auto;
-//   @include respond-to($large-desktop) {
-//     width: 60px;
-//     height: auto;
-//   }
-// }
 
 
 .box{
@@ -81,25 +74,30 @@ h2{
 }
 
 .padding-box{
-	padding: 2rem 2rem;
-	 @include respond-to($large-desktop) {
-     	padding:4rem  2rem ;
-	 }
+   padding: 2rem 2rem;
+   @include respond-to($large-desktop) {
+      padding:4rem  2rem ;
+  }
 }
 
 .margen{
-	margin:auto;
+   margin:auto;
 }
 
-// .contenedorImg:hover .imagen {-webkit-transform:scale(1.1);transform:scale(1.1);}
-// .contenedorImg {overflow:hidden;}
 
-// * {
-//   -webkit-transition: all 1s ease-in-out;
-//   -moz-transition: all 1s ease-in-out;
-//   -o-transition: all 1s ease-in-out;
-//   transition: all 1s ease-in-out;
-// }
-
-
-
+.footer-dark{
+    ul{
+        li{
+            a{
+                text-decoration:none; 
+                i{
+                    color: $color-white;
+                    &:hover{
+                        color: $color-cian;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

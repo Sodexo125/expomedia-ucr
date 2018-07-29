@@ -3,22 +3,19 @@
     color:white;
     font-family:'BitsumisRegular';
 }
-#bgIndex{
-background: #1c1c1c;
 
+#bgIndex{
+    background: #1c1c1c;
 }
+
 .textoIndex{
 	color:white;
     font-family:'MontserratRegular';
-        padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 .cards{
 	padding-top: 30px;
 }
-.espaciado{
-	margin-top: 10px;
-}
-  
 
 section.range-slider {
 	margin-top: 100px;
@@ -26,7 +23,6 @@ section.range-slider {
     width: 200px;
     height: 5px;
     text-align: center;
-
 }
 
 section.range-slider input {
@@ -37,10 +33,9 @@ section.range-slider input {
     top: 15px;
     width: 200px;
     outline: none;
-   height: 6px;
+    height: 6px;
     margin: 0;
     padding: 0;
-
 }
 
 section.range-slider input::-webkit-slider-thumb {
@@ -50,46 +45,48 @@ section.range-slider input::-webkit-slider-thumb {
     z-index: 1;
     outline: 0;
 }
+
 #Activo8{
     display:none;
 }
 
-
 .rangeValues{
-	    padding-top: 35px;
-    margin-left: 44px;
-    position: absolute;
-    /* margin-bottom: 107px; */
-    padding-bottom: 46px;
-    color: #141414;
+ padding-top: 35px;
+ margin-left: 44px;
+ position: absolute;
+ /* margin-bottom: 107px; */
+ padding-bottom: 46px;
+ color: #141414;
 }
+
 .cronogramatitulo{
 	background:#141414;
 	height: 100px;
 }
+
 .cronogramabarra{
 	background:#E3E3E3;
 	height: 500px;
 }
+
 .cronogramatitulo h3{
-	 font-family:'BitsumisRegular';
-	 color: white;
-	 margin-top:39px;
+  font-family:'BitsumisRegular';
+  color: white;
+  margin-top:39px;
 }
-// .contCrono{
-// 	margin-top: 100px;
-// }
+
+
 .bgSlider{
-background:white;
+    background:white;
     height: 476px;
 }
 .vacio{
-	background: white;
+ background: white;
 }
 .vacio h3{
-	margin-top: 39px;
-	 font-family:'BitsumisRegular';
-	color: #1c1c1c;
+ margin-top: 39px;
+ font-family:'BitsumisRegular';
+ color: #1c1c1c;
 }
 
 .slider {
@@ -102,6 +99,7 @@ background:white;
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
     transition: opacity .2s;
 }
+
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
@@ -111,25 +109,23 @@ background:white;
     background:#f76fd7; /* Green background */
     cursor: pointer; /* Cursor on hover */
 }
+
 #inputslide1::-webkit-slider-thumb {
     width: 50px; /* Set a specific slider handle width */
-    
-
- 
-
 }
+
 #inputslide2::-webkit-slider-thumb {
     width: 0; /* Set a specific slider handle width */
     background:transparent!important;
-
 }
+
 .carousel-indicators li{
 	border-radius: 50%;
 	height: 8px;
-	width: 8px;
-	
+	width: 8px;	
 	margin-top: 10px;
 }
+
 .carousel-indicators li:hover{
 	background: white;
 }
@@ -137,11 +133,12 @@ background:white;
 .carousel-indicators .active{
 	background: white;
 }
+
 .carousel-control-next, .carousel-control-prev{
 	color:white!important;
 }
 
 .fond{
 	height: 50px;
-	    background: #E3E3E3;
+    background: #E3E3E3;
 }

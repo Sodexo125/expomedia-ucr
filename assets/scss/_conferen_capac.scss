@@ -1,12 +1,6 @@
-.card-padding-bottom{
-  margin-bottom: 20px;
-	@include respond-to($large-desktop){
-    margin-bottom: 40px;
-  }
-}
-
 /*Estilo para las imágenes*/
-.personaA{
+
+  .personaA{
 	width: 70%;
   height: 62%;
   float: left;

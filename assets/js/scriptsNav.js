@@ -30,6 +30,7 @@
 
                   // añadir clase si no existía; eliminarla si ya existía
                   document.getElementById("videoITM").classList.toggle('efectoBluirVideo');
+                   document.getElementById("contenido-pagina").classList.toggle('efectoBluir');
                   // document.getElementById("contenido").classList.toggle('efectoBluirVideo');
                   // document.getElementById("titulo-expomedia").classList.toggle('efectoBluirVideo');
 

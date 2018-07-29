@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="row">
-        <div id="imagen-header-conferencistasCapacitadores" class="imgHeader col-sm-12">
+        <div id="img-header" class="imgHeader col-sm-12">
           <img src="../assets/images/torneoHeader.png" alt="Ganadores-pasados-del-torneo-de-League-of-Legends">
         </div>
       </div>
@@ -32,7 +32,7 @@
   </header>
   
   <br>
-  <div id="contenido-conferencistasCapacitadores">
+  <div id="contenido-pagina">
 
     <div class="jumbotron jumbotron-fluid">
       <div class="container padding-box">
