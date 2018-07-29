@@ -17,7 +17,7 @@
                     <a class="nav-link" href="php/torneos.php">Torneos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="stand.html">Stands de importancia</a>
+                    <a class="nav-link" href="php/stands.php">Stands de importancia</a>
                 </li>
                 
                 <li class="nav-item dropdown ">
