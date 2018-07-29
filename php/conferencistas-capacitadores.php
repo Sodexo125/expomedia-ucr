@@ -89,7 +89,7 @@
           <div class="">
 
            <div id="texto1" class="card bg-light mb-3 align-self-start" style="max-width: 100%;">
-            <div class="card-header "><h2>John Wayne - Conferencista</h2></div>
+            <div class="card-header text-center"><h2>John Wayne - Conferencista</h2></div>
             <div class="card-body">
 
               <h6 class="card-text">Diseñador Creativo, Fotógrafo Profesional y Productor Audiovisual costarricense/estadounidense. Ha incursionado en el área
@@ -116,7 +116,7 @@
 
 
           <div id="texto3" class="card bg-light mb-3" style="max-width: 100%; display:none;">
-            <div class="card-header "><h2>Dayanna Jiménez - Conferencista</h2></div>
+            <div class="card-header "><h2>Dayanna Jimenez - Conferencista</h2></div>
             <div class="card-body">
 
               <h6 class="card-text">Cocreadora de la empresa de desarrollo de videojuegos Point Break, empresa dedicada a crear simuladores con tecnología de
@@ -142,7 +142,7 @@
 
 
            <div id="texto5" class="card bg-light mb-3" style="max-width: 100%; display:none;">
-            <div class="card-header"><h2>Enrique Soto V.- Capacitador</h2></div>
+            <div class="card-header"><h2>Enrique Soto V - Capacitador</h2></div>
             <div class="card-body">
               <h6 class="card-text">Es un Ingeniero de software costarricense, dedicado al desarrollo de planos para integrarlos en arduinos y raspberry pi.
               Comenzó como un hobby y poco a poco el conocimiento fue creciendo a tal punto que pasó de hablar sobre hardware
@@ -154,7 +154,7 @@
 
 
           <div id="texto6" class="card bg-light mb-3" style="max-width: 100%; display:none;">
-            <div class="card-header"><h2>Andy Vásquez - Capacitador</h2></div>
+            <div class="card-header"><h2>Andy Vasquez - Capacitador</h2></div>
             <div class="card-body">
               <h6 class="card-text">Es un estudiante de Informática Empresarial de la Universidad de Costa Rica que se interesó como hobbie en trabajar con los
               arduinos porque al ser una plataforma de código abierto (open-source) basada en hardware y software podía
@@ -193,7 +193,7 @@
 
   
           <div id="texto9" class="card bg-light mb-3" style="max-width: 100%; display:none;">
-            <div class="card-header"><h2>Mónica Rodríguez S. - Capacitadora</h2></div>
+            <div class="card-header"><h2>Monica Rodríguez S. - Capacitadora</h2></div>
             <div class="card-body">
               <h6 class="card-text">Programadora egresada de la carrera de Ingeniería en Computación del Tecnológico de Costa Rica (TEC). Se dedica al frontend
               y backend del desarrollo de páginas web en la empresa Cisne Rojo ubicada en Alajuela. La empresa se dedica
@@ -256,7 +256,7 @@
               <div data-target="#carouselExampleControls" data-slide-to="2">
                 <img class="card-img-top" src="../assets/images/editPS01.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                 <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Dayanna Jiménez</h5>
+                  <h5 class="card-title newH3">Dayanna Jimenez</h5>
                 </div>
               </div>
             </div>
@@ -270,7 +270,7 @@
               <div data-target="#carouselExampleControls" data-slide-to="3">
                 <img class="card-img-top" src="../assets/images/editPS02.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                 <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Sebastián Brenes</h5>
+                  <h5 class="card-title newH3">Sebastian Brenes</h5>
                 </div>
               </div>
             </div>
@@ -305,7 +305,7 @@
               <div data-target="#carouselExampleControls" data-slide-to="5">
                 <img class="card-img-top" src="../assets/images/editPS04.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                 <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Andy Vásquez</h5>
+                  <h5 class="card-title newH3">Andy Vasquez</h5>
                 </div>
               </div>
             </div>
@@ -352,7 +352,7 @@
               <div data-target="#carouselExampleControls" data-slide-to="8">
                 <img class="card-img-top" src="../assets/images/editPS01.jpg" alt="agregar descripcionnnnnnnnnnnnnnnnnnnnnnnn">
                 <div class="card-body card-footer text-muted">
-                  <h5 class="card-title newH3">Mónica Rodríguez S.</h5>
+                  <h5 class="card-title newH3">Monica Rodriguez S.</h5>
                 </div>
               </div>
             </div>
