@@ -11,24 +11,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Videos</a>
+                    <a class="nav-link" href="php/videos.php">Videos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="php/torneos.php">Torneos</a>
                 </li>
                 <li class="nav-item">
+
                     <a class="nav-link" href="php/stands.php">Stands de importancia</a>
+
                 </li>
                 
                 <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">About</a>
                     <div class="dropdown-menu desplegable" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Conferencistas y Capacitadores</a>
-                        <a class="dropdown-item" href="#">ExpoMedia</a>
+                        <a class="dropdown-item" href="php/conferencistas-capacitadores.php">Conferencistas y Capacitadores</a>
+                        <a class="dropdown-item" href="php/expomedia.php">ExpoMedia</a>
                     </div>
                 </li>
-
             </ul>
         </div>
     </div>

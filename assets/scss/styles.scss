@@ -12,6 +12,8 @@
 @include font-face('BitsumisRegular', 'bitsumis-webfont', 'Bitsumis', 'serif' );
 @include font-face('MontserratRegular', 'montserrat-regular-webfont', 'Montserrat', 'serif' );
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+* {outline-width: 0;    font-family: 'Roboto';}
 
 // CLASES MAESTRAS QUE AFECTAN A TODAS!!!
 
@@ -31,6 +33,20 @@ body {
 header{
   width: 100%;
   height: 100%;
+}
+
+.margin-padding-0{
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-lef: 0px;
+  padding-right: 0px;
+}
+
+.margin-padding-20{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-lef: 20px;
+  padding-right: 20px;
 }
 
 .top-nav{
@@ -54,6 +70,22 @@ header{
 }
 .nav-transparent{
   background: green;
+}
+
+// imagen del header 
+header{
+  .imgHeader {
+    margin:0;
+    padding:0;
+    img{
+    width:100%;
+    height:160px;
+    @include respond-to($large-desktop){
+      width:100%;
+      height:auto;
+      }
+    }
+  }
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////
 

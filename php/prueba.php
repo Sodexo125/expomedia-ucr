@@ -39,6 +39,7 @@
       </div>
       <!-- Primeros a mostrar -->
 
+
        <!-- Segundos a mostrar -->
       <div class="carousel-item ">
         <div class="row clickModal">
@@ -92,6 +93,7 @@
 </div>
 <!-- Modal1 -->
 
+
 <!-- Modal2 -->
 <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -115,6 +117,7 @@
 </div>
 <!-- Modal2 -->
 
+
 <!-- Modal3 -->
 <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -135,8 +138,10 @@
       </div>
     </div>
   </div>
+
 </div>
 <!-- Modal3 -->
+
 
 <!-- Modal4 -->
 <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -162,6 +167,7 @@
 <!-- Modal4 -->
 
 
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -171,6 +177,14 @@
  
   </script>
 
+<script>
+    /* Demo purposes only */
+  $(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );
+</script>
 </body>
 
 </html>

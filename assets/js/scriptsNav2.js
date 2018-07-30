@@ -26,13 +26,7 @@
      $('#boton-menu').click(cambiarClaseVideo); //verificamos el elemento btn menu y llamamos una funcion
      
      function cambiarClaseVideo() {
-      
-
            // añadir clase si no existía; eliminarla si ya existía
-           document.getElementById("contenido-conferencistasCapacitadores").classList.toggle('efectoBluir');
- 
-
-
-          
-          
+           document.getElementById("contenido-pagina").classList.toggle('efectoBluir');
+           document.getElementById("img-header").classList.toggle('efectoBluir');       
      }
