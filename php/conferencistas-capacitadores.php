@@ -42,7 +42,7 @@
 
 
     <section class="">
-      <div class="row align-items-center margin-padding-0">
+      <div id="info" class="row align-items-center margin-padding-0">
 
         <div class="col-12 col-md-5 col-lg-6 card-padding-bottom">
           <div id="carouselExampleSlidesOnly" class="carousel  contenedor-Slide" data-interval="0">
@@ -381,12 +381,26 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="../js/conferen_capac.js"></script>
 <script src="../assets/js/scriptsNav2.js"></script>
+<script type="text/javascript">
+    // function autoscroll(){
+$(document).ready(function() {
+$(".card").click(function() {
 
+     $('html, body').animate({
+         scrollTop: $("#info").offset().top
+     }, 1500);
+ });
+});
+    
+  </script>
 </body>
 
 </html>
