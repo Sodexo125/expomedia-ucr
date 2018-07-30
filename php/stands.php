@@ -193,7 +193,10 @@
 
 <!-- Footer -->
 
-  <?php @include('../includes/footer.php'); ?>
+ 
+    <footer>
+    <?php @include('../includes/footer.php'); ?>
+  </footer> 
 
 <!-- fin del footer -->
 
