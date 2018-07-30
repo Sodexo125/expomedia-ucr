@@ -192,11 +192,11 @@
 <!-- Modal4 -->
 
 <!-- Footer -->
-
+<footer>
+   <?php @include('../includes/footer.php'); ?>
+</footer>
  
-    <footer>
-    <?php @include('../includes/footer.php'); ?>
-  </footer> 
+  
 
 <!-- fin del footer -->
 

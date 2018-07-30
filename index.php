@@ -208,6 +208,7 @@
   </div>
 <!-- Slider de imagenes -->
 <div id="prueba" class="fond"></div>
+
   <footer>
     <?php @include('../includes/footer.php'); ?>
   </footer> 
