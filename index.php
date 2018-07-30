@@ -209,7 +209,7 @@
     </a>
   </div>
 <!-- Slider de imagenes -->
-<div id="prueba" class="fond"></div>
+<div class="fond"></div>
 
   <footer>
     <?php @include('includes/footer.php'); ?>
@@ -227,17 +227,6 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/scriptsNav.js"></script>
   <script type="text/javascript" src="js/scripts.js"></script>
-  <script type="text/javascript">
-    // function autoscroll(){
-$(document).ready(function() {
-$("#videoITM").click(function() {
-
-     $('html, body').animate({
-         scrollTop: $("#prueba").offset().top
-     }, 1500);
- });
-});
-    
-  </script>
+  
 </body>
 </html>
