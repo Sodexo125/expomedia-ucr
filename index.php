@@ -208,9 +208,9 @@
   </div>
 <!-- Slider de imagenes -->
 <div id="prueba" class="fond"></div>
-<!-- Footer -->
-<?php @include('./includes/footer.php'); ?>
-<!-- fin del footer -->
+  <footer>
+    <?php @include('../includes/footer.php'); ?>
+  </footer> 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
