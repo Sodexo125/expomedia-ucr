@@ -25,8 +25,9 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">About</a>
                     <div class="dropdown-menu desplegable" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="conferencistas-capacitadores.php">Conferencistas y Capacitadores</a>
-                        <a class="dropdown-item" href="expomedia.php">ExpoMedia</a>
+                        <a class="dropdown-item item1" href="conferencistas-capacitadores.php">Conferencistas y Capacitadores</a>
+                        <p class="dropdown-item itemdivisor">|</p>
+                        <a class="dropdown-item item2" href="expomedia.php">ExpoMedia</a>
                     </div>
                 </li>
             </ul>

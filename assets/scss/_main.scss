@@ -71,6 +71,7 @@ ul{
   li{
     a{
       font-family: 'MontserratRegular';
+      color:white!important;
       &:hover {
         color:$color-cian !important;
       }
@@ -78,6 +79,23 @@ ul{
   }
 }
 
+.item1{
+ margin-left: -120px;
+
+}
+.itemdivisor{
+  color:white;
+   margin-top: -33px;
+    margin-left: 138px;
+}
+   .itemdivisor:hover{
+      background:transparent;
+      color:white;
+    }
+.item2{
+    margin-left: 153px;
+    margin-top: -32px;
+}
 
 // ESTILOS DEL MENU A PRUEBA
 .logo {
@@ -156,6 +174,7 @@ ul{
     position:fixed; 
     bottom:0; 
   }
+
 
 .exp{
   @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
@@ -245,9 +264,7 @@ ul{
   transition-duration: 0.5s;
     background:$color-rose !important;
     .desplegable {
-  position:relative!important;
-  padding-bottom:64px;
-      margin-top: -95px;
+    margin-top: -15px;
 }
 
 }
